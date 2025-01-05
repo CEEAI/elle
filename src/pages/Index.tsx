@@ -11,10 +11,16 @@ const Index = () => {
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
   const [selectedDomains, setSelectedDomains] = useState<string[]>([]);
 
-  // 获取所有唯一的难度、类型和领域值
-  const difficulties = [...new Set(questions.map(q => q.难度))];
-  const types = [...new Set(questions.flatMap(q => Array.isArray(q.类型) ? q.类型 : [q.类型]))];
-  const domains = [...new Set(questions.flatMap(q => Array.isArray(q.领域) ? q.领域 : [q.领域]))];
+  // 动态获取所有唯一的难度、类型和领域值
+  const difficulties = useMemo(() => [...new Set(questions.map(q => q.难度))], []);
+  const types = useMemo(() => {
+    const allTypes = questions.flatMap(q => Array.isArray(q.类型) ? q.类型 : [q.类型]);
+    return [...new Set(allTypes)];
+  }, []);
+  const domains = useMemo(() => {
+    const allDomains = questions.flatMap(q => Array.isArray(q.领域) ? q.领域 : [q.领域]);
+    return [...new Set(allDomains)];
+  }, []);
 
   // 过滤问题
   const filteredQuestions = useMemo(() => {
@@ -144,7 +150,11 @@ const Index = () => {
         {/* 问题列表 */}
         <div className="grid gap-4">
           {filteredQuestions.map((question) => (
-            <QuestionCard key={question.序号} {...question} />
+            <QuestionCard 
+              key={question.序号} 
+              {...question} 
+              searchQuery={searchQuery}
+            />
           ))}
         </div>
       </div>

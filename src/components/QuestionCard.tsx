@@ -8,9 +8,10 @@ interface QuestionCardProps {
   难度: string;
   类型: string | string[];
   领域: string | string[];
+  searchQuery?: string;
 }
 
-const QuestionCard = ({ 序号, 问题, 难度, 类型, 领域 }: QuestionCardProps) => {
+const QuestionCard = ({ 序号, 问题, 难度, 类型, 领域, searchQuery }: QuestionCardProps) => {
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
       case "困难":
@@ -25,7 +26,7 @@ const QuestionCard = ({ 序号, 问题, 难度, 类型, 领域 }: QuestionCardPr
   return (
     <Card className="w-full hover:shadow-lg transition-shadow duration-200 bg-white/80 backdrop-blur-sm">
       <CardHeader>
-        <CardTitle className="flex items-center justify-between">
+        <CardTitle className="flex items-center justify-between text-xl">
           <span>问题 {序号}</span>
           <div className="flex gap-2">
             <Badge variant={getDifficultyColor(难度)}>{难度}</Badge>
@@ -46,7 +47,7 @@ const QuestionCard = ({ 序号, 问题, 难度, 类型, 领域 }: QuestionCardPr
       </CardHeader>
       <CardContent>
         <div className="text-gray-700">
-          <LatexRenderer content={问题} />
+          <LatexRenderer content={问题} searchQuery={searchQuery} />
         </div>
       </CardContent>
     </Card>
