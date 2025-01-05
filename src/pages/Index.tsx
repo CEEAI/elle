@@ -1,9 +1,8 @@
 import { useState, useMemo } from 'react';
 import { Input } from "@/components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Badge } from "@/components/ui/badge";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Checkbox } from "@/components/ui/checkbox";
+import FilterSection from '@/components/FilterSection';
+import QuestionCard from '@/components/QuestionCard';
 import questions from '../data/questions.json';
 
 const Index = () => {
@@ -73,7 +72,7 @@ const Index = () => {
         </h1>
         
         {/* 搜索和筛选区域 */}
-        <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
+        <div className="bg-white/70 backdrop-blur-sm rounded-lg shadow-lg p-6 mb-8">
           <Input
             placeholder="搜索问题..."
             value={searchQuery}
@@ -82,53 +81,24 @@ const Index = () => {
           />
           
           <div className="grid gap-6 md:grid-cols-3">
-            {/* 难度筛选 */}
-            <div className="space-y-4">
-              <h3 className="font-semibold text-gray-700">难度筛选</h3>
-              <div className="flex flex-wrap gap-2">
-                {difficulties.map(difficulty => (
-                  <label key={difficulty} className="flex items-center space-x-2 bg-gray-50 p-2 rounded-md">
-                    <Checkbox
-                      checked={selectedDifficulties.includes(difficulty)}
-                      onCheckedChange={() => handleDifficultyToggle(difficulty)}
-                    />
-                    <span>{difficulty}</span>
-                  </label>
-                ))}
-              </div>
-            </div>
-
-            {/* 类型筛选 */}
-            <div className="space-y-4">
-              <h3 className="font-semibold text-gray-700">类型筛选</h3>
-              <div className="flex flex-wrap gap-2">
-                {types.map(type => (
-                  <label key={type} className="flex items-center space-x-2 bg-gray-50 p-2 rounded-md">
-                    <Checkbox
-                      checked={selectedTypes.includes(type)}
-                      onCheckedChange={() => handleTypeToggle(type)}
-                    />
-                    <span>{type}</span>
-                  </label>
-                ))}
-              </div>
-            </div>
-
-            {/* 领域筛选 */}
-            <div className="space-y-4">
-              <h3 className="font-semibold text-gray-700">领域筛选</h3>
-              <div className="flex flex-wrap gap-2">
-                {domains.map(domain => (
-                  <label key={domain} className="flex items-center space-x-2 bg-gray-50 p-2 rounded-md">
-                    <Checkbox
-                      checked={selectedDomains.includes(domain)}
-                      onCheckedChange={() => handleDomainToggle(domain)}
-                    />
-                    <span>{domain}</span>
-                  </label>
-                ))}
-              </div>
-            </div>
+            <FilterSection
+              title="难度筛选"
+              options={difficulties}
+              selected={selectedDifficulties}
+              onToggle={handleDifficultyToggle}
+            />
+            <FilterSection
+              title="类型筛选"
+              options={types}
+              selected={selectedTypes}
+              onToggle={handleTypeToggle}
+            />
+            <FilterSection
+              title="领域筛选"
+              options={domains}
+              selected={selectedDomains}
+              onToggle={handleDomainToggle}
+            />
           </div>
         </div>
 
@@ -174,35 +144,7 @@ const Index = () => {
         {/* 问题列表 */}
         <div className="grid gap-4">
           {filteredQuestions.map((question) => (
-            <Card key={question.序号} className="w-full hover:shadow-lg transition-shadow duration-200">
-              <CardHeader>
-                <CardTitle className="flex items-center justify-between">
-                  <span>问题 {question.序号}</span>
-                  <div className="flex gap-2">
-                    <Badge variant={question.难度 === '困难' ? 'destructive' : 
-                              question.难度 === '中等' ? 'default' : 
-                              'secondary'}>
-                      {question.难度}
-                    </Badge>
-                    {Array.isArray(question.类型) ? 
-                      question.类型.map(type => (
-                        <Badge key={type} variant="outline">{type}</Badge>
-                      )) : 
-                      <Badge variant="outline">{question.类型}</Badge>
-                    }
-                    {Array.isArray(question.领域) ? 
-                      question.领域.map(domain => (
-                        <Badge key={domain} variant="secondary">{domain}</Badge>
-                      )) : 
-                      <Badge variant="secondary">{question.领域}</Badge>
-                    }
-                  </div>
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="whitespace-pre-wrap text-gray-700">{question.问题}</p>
-              </CardContent>
-            </Card>
+            <QuestionCard key={question.序号} {...question} />
           ))}
         </div>
       </div>
