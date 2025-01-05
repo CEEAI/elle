@@ -6,5 +6,151 @@
         "类型": "计算",
         "领域": "环境化学"
     },
-    // ... 其他数据
+    {
+        "序号": 2,
+        "问题": "Water with an alkalinity of 2.00 × 10-3 equivalents/liter has a pH of 7.00. Calculate [CO2],[HCO3-],[CO32-],and [OH-].",
+        "难度": "困难",
+        "类型": "计算",
+        "领域": "环境化学"
+    },
+    {
+        "序号": 3,
+        "问题": "Assume a sewage treatment plant processing 1 million liters of wastewater per day containing 200 mg/L of degradable biomass,{CH2O}. Calculate the volume of dry air at 25°C that must be pumped into the wastewater per day to provide the oxygen required to degrade the biomass",
+        "难度": "中等",
+        "类型": "计算",
+        "领域": "环境工程"
+    },
+    {
+        "序号": 4,
+        "问题": "What is the pE value in a solution in equilibrium with air (21% O2 by volume) at pH 6.00?",
+        "难度": "中等",
+        "类型": "计算",
+        "领域": "环境化学"
+    },
+    {
+        "序号": 5,
+        "问题": "Match each of the following from the lettered list to the reaction that corresponds to it from the numbered list below: (A) For 1 electron-mole (B) Reaction for standard electrode (C) At upper pE limit of water (D) Formation of a pollutant when anoxic water is brought to the surface \\begin{align*}(1) \\quad & \\text{Fe(H}_2\\text{O)}_6^{2+} \\leftrightarrow e^- + \\text{Fe(OH)}_3 (\\text{s}) + 3\\text{H}_2\\text{O} + 3\\text{H}^+ \\\\(2) \\quad & \\text{H}_2 \\leftrightarrow 2\\text{H}^+ + 2e^- \\\\(3) \\quad & \\frac{1}{8}\\text{NH}_4^+ + \\frac{1}{4}\\text{O}_2 \\leftrightarrow \\frac{1}{8}\\text{NO}_3^- + \\frac{1}{4}\\text{H}^+ + \\frac{1}{8}\\text{H}_2\\text{O} \\\\(4) \\quad & 2\\text{H}_2\\text{O} \\leftrightarrow \\text{O}_2 + 4\\text{H}^+ + 4e^-\\end{align*}",
+        "难度": "中等",
+        "类型": "逻辑推理",
+        "领域": "环境化学"
+    },
+    {
+        "序号": 6,
+        "问题": "What is the surface area in square meters of 1.00 gram of spherical bacterial cells,1.00 µm in diameter,having density of 1.00 \\,\\text{g/cm}^3?",
+        "难度": "中等",
+        "类型": "计算",
+        "领域": "生物环境学"
+    },
+    {
+        "序号": 7,
+        "问题": "At an altitude of 50 km,the average atmospheric temperature is essentially 0°C. What is the average number of air molecules per cubic centimeter of air at this altitude?",
+        "难度": "困难",
+        "类型": "计算",
+        "领域": "大气环境学"
+    },
+    {
+        "序号": 8,
+        "问题": "In 2006,the U.S. Environmental Protection Agency proposed lowering the allowable PM2.5 level to \\( 35 \\,\\mu\\text{g/m}^3 \\). How many particles would this be in a cubic meter of air assuming that all the particles were spheres of a diameter of \\( 2.5 \\,\\mu\\text{m} \\) and had a density of exactly \\( 1 \\,\\text{g/cm}^3 \\)?",
+        "难度": "困难",
+        "类型": "计算",
+        "领域": "大气环境学"
+    },
+    {
+        "序号": 9,
+        "问题": "Carbon monoxide is present at a level of 10 ppm by volume in an air sample taken at 15°C and 1.00 atm pressure. At what temperature (at 1.00 atm pressure) would the sample also contain 10 mg/m3 of CO?",
+        "难度": "困难",
+        "类型": "计算",
+        "领域": "大气环境学"
+    },
+    {
+        "序号": 10,
+        "问题": "如果一公斤农药在土壤中的降解率是每年减少10%，10年后还有多少农药残留在土壤中？",
+        "难度": "简单",
+        "类型": "计算",
+        "领域": "环境化学"
+    },
+    {
+        "序号": 11,
+        "问题": "测定一个物质与羟基自由基OH的反应速率常数经常采用以下方法：将待测定物质A和另一物质B（物质B与羟基自由基的反应速率常数kB已知）放入同一个存在羟基自由基的反应器中，通过测定物质A和B的浓度随时间的变化，通过\\( \\ln \\frac{[A]_0}{[A]_t} \\)对\\( \\ln \\frac{[B]_0}{[B]_t} \\)作图以及已知的kB计算得到kA。请说明为什么。假定物质A和B与羟基自由基的反应均为一级反应（对A和B而言），同时假定反应过程中羟基自由基处于稳态。",
+        "难度": "简单",
+        "类型": "计算",
+        "领域": "环境化学"
+    },
+    {
+        "序号": 12,
+        "问题": "如果一个填埋场的渗滤液渗透系数为10^-7 cm/s，衬层厚度为2米，估算渗滤液穿透衬层所需的时间？",
+        "难度": "简单",
+        "类型": "计算",
+        "领域": "环境工程"
+    },
+    {
+        "序号": 13,
+        "问题": "某城市垃圾的化学组成为C60.0H25.4O37.5N7.8S5.6Cl，其水份含量为45.6％，灰分含量为14.3％。请估算该废物的高位热值和低位热值。 (C1为有机碳，C2为无机碳)",
+        "难度": "中等",
+        "类型": "计算",
+        "领域": "环境工程"
+    },
+    {
+        "序号": 14,
+        "问题": "某填埋场底部黏土衬层厚度为1.0 m，\\( K_s = 1 \\times 10^{-7} \\,\\text{cm/s} \\)。计算渗滤液穿透防渗层所需的时间，若采用膨润土改性黏土防渗，防渗层厚度应多厚。设防渗层的有效孔隙率\\( \\eta_e = 6\\% \\)，防渗层上渗滤液积水厚度不超过1m，膨润土改性黏土\\( K_s = 5 \\times 10^{-9} \\,\\text{cm/s} \\)。",
+        "难度": "困难",
+        "类型": "计算",
+        "领域": "环境工程"
+    },
+    {
+        "序号": 15,
+        "问题": "《生活垃圾卫生填埋处理技术规范》（GB 50869-2013）对填埋场采用自然防渗和人工防渗规定应符合下列要求：黏土类衬里（自然防渗）的填埋场，天然黏土类衬里的渗透系数不应大于\\( 1.0 \\times 10^{-7} \\,\\text{cm/s} \\)，，场底及四壁衬里厚度不应小于2m；改良土衬里的防渗性能应达到黏土类防渗性能。经勘探分析表明，某拟选填埋场场址现场黏土\\( K_s = 1 \\times 10^{-5} \\,\\text{cm/s} \\)，厚度平均为5m。设防渗层的有效孔隙率\\( \\eta_e = 6\\% \\)，防渗层上填埋垃圾渗滤液积水厚度不超过2 m。试计算：①若以现场黏土作为填埋场防渗层，渗滤液穿透该防渗层所需的时间，该地质条件能否满足GB 50869-2013的要求，若要满足，黏土层至少多厚；②若采用膨润土改性黏土防渗，防渗层厚度应多厚才能满足规定要求。膨润土改性黏土\\( K_s = 5 \\times 10^{-9} \\,\\text{cm/s} \\)。③请再提出一种以上的防渗措施，使该场址满足GB 50869-2013标准的要求。",
+        "难度": "困难",
+        "类型": ["知识百科", "计算"],
+        "领域": "环境工程"
+    },
+    {
+        "序号": 16,
+        "问题": "采用降尘室从含尘气体中除去固体颗粒。降尘室长为6 m、宽为3m，共20层，每层层高100 mm。在20℃操作条件下气体密度为0.5 kg/m3，黏度为3.5×10-5 Pa·s，颗粒密度为3000 kg/m3，要求去除的最小颗粒直径为10 μm。试求：(1) 为达到上述要求，可允许的最大气流速度；(2) 为完成上述要求，含尘气体的质量流量；(3) 如果先预热至400℃后除尘，假设含尘气体压力不变，质量流量同(2)，400℃ 含尘气体黏度为 6.5×10-5 Pa·s，可以去除的最小颗粒直径。",
+        "难度": "困难",
+        "类型": ["逻辑推理", "计算"],
+        "领域": "环境工程"
+    },
+    {
+        "序号": 17,
+        "问题": "在两级串联CSTR反应器中进行一级不可逆液相反应A→B，反应速率方程为-rA=kcA（k为定值），进料流量、浓度一定，总转化率XA为84%，试证明当两个反应器的有效体积相等时，总体积最小。",
+        "难度": "困难",
+        "类型": ["逻辑推理", "计算"],
+        "领域": "环境工程"
+    },
+    {
+        "序号": 18,
+        "问题": "某啤酒厂，日均废水量为2000m3/d，废水的CODCr为8000mg/L，BOD5为5800mg/L，SS为800mg/L，pH在8.5左右。要求处理后出水CODCr＜200mg/L，SS＜200mg/L。综合考虑技术和经济，应该如何设计工艺方案？",
+        "难度": "中等",
+        "类型": ["逻辑推理", "计算"],
+        "领域": "环境工程"
+    },
+    {
+        "序号": 19,
+        "问题": "某城市采用5 m3的垃圾车收集和运送生活垃圾，为了解该系统的收运效率，按国家标准的采样方法进行采样并分析，结果表明，垃圾含水率36%，装满垃圾后总量2.1t（不含车重），垃圾颗粒体积为3.5 m3。请计算垃圾的干密度和湿密度，车载垃圾的空隙比和空隙率。",
+        "难度": "困难",
+        "类型": "计算",
+        "领域": "环境工程"
+    },
+    {
+        "序号": 20,
+        "问题": "一台废物处理能力为100t/h的设备，经测试当其把平均尺寸为8in的废物破碎至2in时需动力30kW.h/t，请以此计算当用该设备把废物从平均10in破碎至2in时所需要的动力大小。",
+        "难度": "简单",
+        "类型": "计算",
+        "领域": "环境工程"
+    },
+    {
+        "序号": 21,
+        "问题": "请说明用氧化还原解毒原理对铬渣和砷渣分别进行化学稳定化的技术过程、所用试剂及涉及的化学反应等。",
+        "难度": "困难",
+        "类型": "逻辑推理",
+        "领域": ["环境工程", "环境化学"]
+    },
+    {
+        "序号": 22,
+        "问题": "有害组分在两相中的分配系数K可以下式表达：K=Ce/Cr[式中，K为分配系数（无量纲）；Ce为平衡时有机污染物在萃取液中的浓度（质量分数），%；Cr为平衡时有机污染物在萃余液中的浓度（质量分数）]。请计算，当K=4时，为从4t 的原料中一次提取50%有害污染物，至少需要多少公斤萃取剂？",
+        "难度": "中等",
+        "类型": "逻辑推理",
+        "领域": ["环境工程", "环境化学"]
+    }
 ]
