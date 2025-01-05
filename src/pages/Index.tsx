@@ -26,20 +26,20 @@ const Index = () => {
   const filteredQuestions = useMemo(() => {
     return questions.filter(question => {
       // 只搜索问题内容
-      const matchesSearch = searchQuery.trim() === '' || 
+      const matchesSearch = searchQuery.trim() === '' ||
         question.问题.toLowerCase().includes(searchQuery.toLowerCase());
-      
-      const matchesDifficulty = selectedDifficulties.length === 0 || 
+
+      const matchesDifficulty = selectedDifficulties.length === 0 ||
         selectedDifficulties.includes(question.难度);
-      
-      const matchesType = selectedTypes.length === 0 || 
-        (Array.isArray(question.类型) ? 
-          question.类型.some(t => selectedTypes.includes(t)) : 
+
+      const matchesType = selectedTypes.length === 0 ||
+        (Array.isArray(question.类型) ?
+          question.类型.some(t => selectedTypes.includes(t)) :
           selectedTypes.includes(question.类型));
-      
-      const matchesDomain = selectedDomains.length === 0 || 
-        (Array.isArray(question.领域) ? 
-          question.领域.some(d => selectedDomains.includes(d)) : 
+
+      const matchesDomain = selectedDomains.length === 0 ||
+        (Array.isArray(question.领域) ?
+          question.领域.some(d => selectedDomains.includes(d)) :
           selectedDomains.includes(question.领域));
 
       return matchesSearch && matchesDifficulty && matchesType && matchesDomain;
@@ -47,36 +47,39 @@ const Index = () => {
   }, [searchQuery, selectedDifficulties, selectedTypes, selectedDomains]);
 
   const handleDifficultyToggle = (difficulty: string) => {
-    setSelectedDifficulties(prev => 
-      prev.includes(difficulty) 
+    setSelectedDifficulties(prev =>
+      prev.includes(difficulty)
         ? prev.filter(d => d !== difficulty)
         : [...prev, difficulty]
     );
   };
 
   const handleTypeToggle = (type: string) => {
-    setSelectedTypes(prev => 
-      prev.includes(type) 
+    setSelectedTypes(prev =>
+      prev.includes(type)
         ? prev.filter(t => t !== type)
         : [...prev, type]
     );
   };
 
   const handleDomainToggle = (domain: string) => {
-    setSelectedDomains(prev => 
-      prev.includes(domain) 
+    setSelectedDomains(prev =>
+      prev.includes(domain)
         ? prev.filter(d => d !== domain)
         : [...prev, domain]
     );
   };
 
+  const [showFilters, setShowFilters] = useState(false);
+
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <div className="container mx-auto py-8 px-4">
         <h1 className="text-4xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-          环境问题检索系统
+          生态环境大模型测试集 - Environmental LLm Evaluation - ELLE
         </h1>
-        
+
         {/* 搜索和筛选区域 */}
         <div className="bg-white/70 backdrop-blur-sm rounded-lg shadow-lg p-6 mb-8">
           <Input
@@ -85,34 +88,59 @@ const Index = () => {
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full mb-6"
           />
-          
-          <div className="grid gap-6 md:grid-cols-3">
-            <FilterSection
-              title="难度筛选"
-              options={difficulties}
-              selected={selectedDifficulties}
-              onToggle={handleDifficultyToggle}
-            />
-            <FilterSection
-              title="类型筛选"
-              options={types}
-              selected={selectedTypes}
-              onToggle={handleTypeToggle}
-            />
-            <FilterSection
-              title="领域筛选"
-              options={domains}
-              selected={selectedDomains}
-              onToggle={handleDomainToggle}
-            />
+
+          <div className="ml-auto flex justify-end">
+            <label className="inline-flex items-center cursor-pointer">
+              <span className="mr-2 text-gray-700">筛选</span>
+              <div className="relative">
+                <input
+                  type="checkbox"
+                  className="sr-only"
+                  checked={showFilters}
+                  onChange={() => setShowFilters(!showFilters)}
+                />
+                <div className="block w-10 h-6 bg-gray-300 rounded-full"></div>
+                <div
+                  className={`dot absolute left-1 top-1 w-4 h-4 rounded-full transition ${showFilters ? "translate-x-full bg-blue-500" : "bg-white"
+                    }`}
+                ></div>
+              </div>
+            </label>
           </div>
+
+          {showFilters && (
+            <div className="grid gap-6 md:grid-cols-3">
+              <div className="md:col-span-1 space-y-6">
+                <FilterSection
+                  title="难度筛选"
+                  options={difficulties}
+                  selected={selectedDifficulties}
+                  onToggle={handleDifficultyToggle}
+                />
+                <FilterSection
+                  title="类型筛选"
+                  options={types}
+                  selected={selectedTypes}
+                  onToggle={handleTypeToggle}
+                />
+              </div>
+              <div className="md:col-span-2">
+                <FilterSection
+                  title="领域筛选"
+                  options={domains}
+                  selected={selectedDomains}
+                  onToggle={handleDomainToggle}
+                />
+              </div>
+            </div>
+          )}
         </div>
 
         {/* 已选筛选条件展示 */}
         <div className="flex flex-wrap gap-2 mb-4">
           {selectedDifficulties.map(difficulty => (
-            <Badge 
-              key={difficulty} 
+            <Badge
+              key={difficulty}
               variant="secondary"
               className="cursor-pointer"
               onClick={() => handleDifficultyToggle(difficulty)}
@@ -121,8 +149,8 @@ const Index = () => {
             </Badge>
           ))}
           {selectedTypes.map(type => (
-            <Badge 
-              key={type} 
+            <Badge
+              key={type}
               variant="secondary"
               className="cursor-pointer"
               onClick={() => handleTypeToggle(type)}
@@ -131,8 +159,8 @@ const Index = () => {
             </Badge>
           ))}
           {selectedDomains.map(domain => (
-            <Badge 
-              key={domain} 
+            <Badge
+              key={domain}
               variant="secondary"
               className="cursor-pointer"
               onClick={() => handleDomainToggle(domain)}
@@ -144,15 +172,15 @@ const Index = () => {
 
         {/* 结果计数 */}
         <p className="text-gray-600 mb-4">
-          共找到 {filteredQuestions.length} 个问题
+          共 {filteredQuestions.length} 个问题
         </p>
 
         {/* 问题列表 */}
         <div className="grid gap-4">
           {filteredQuestions.map((question) => (
-            <QuestionCard 
-              key={question.序号} 
-              {...question} 
+            <QuestionCard
+              key={question.序号}
+              {...question}
               searchQuery={searchQuery}
             />
           ))}
