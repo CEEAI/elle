@@ -1,0 +1,10 @@
+[
+    {
+        "序号": 1,
+        "问题": "Exactly 100 pounds of cane sugar (dextrose),C12H22O11,were accidentally discharged into a small stream saturated with oxygen from the air at 25°C. How many liters of this water could be contaminated to the extent of removing all the dissolved oxygen by biodegradation?",
+        "难度": "困难",
+        "类型": "计算",
+        "领域": "环境化学"
+    },
+    // ... 其他数据
+]
