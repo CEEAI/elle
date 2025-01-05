@@ -25,9 +25,9 @@ const Index = () => {
   // 过滤问题
   const filteredQuestions = useMemo(() => {
     return questions.filter(question => {
-      const matchesSearch = Object.values(question).some(value => 
-        String(value).toLowerCase().includes(searchQuery.toLowerCase())
-      );
+      // 只搜索问题内容
+      const matchesSearch = searchQuery.trim() === '' || 
+        question.问题.toLowerCase().includes(searchQuery.toLowerCase());
       
       const matchesDifficulty = selectedDifficulties.length === 0 || 
         selectedDifficulties.includes(question.难度);
@@ -80,7 +80,7 @@ const Index = () => {
         {/* 搜索和筛选区域 */}
         <div className="bg-white/70 backdrop-blur-sm rounded-lg shadow-lg p-6 mb-8">
           <Input
-            placeholder="搜索问题..."
+            placeholder="搜索问题内容..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             className="w-full mb-6"
