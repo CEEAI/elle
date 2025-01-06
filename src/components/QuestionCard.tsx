@@ -20,6 +20,9 @@ const QuestionCard = ({ Number, Question, Difficulty, Type, Domain, searchQuery 
       case "困难":
       case "Hard":
         return "destructive";
+      case "简单":
+      case "Easy":
+        return "success";
       case "中等":
       case "Medium":
         return "default";
