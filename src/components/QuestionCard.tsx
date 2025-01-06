@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import LatexRenderer from "./LatexRenderer";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface QuestionCardProps {
   序号: number;
@@ -12,14 +13,14 @@ interface QuestionCardProps {
 }
 
 const QuestionCard = ({ 序号, 问题, 难度, 类型, 领域, searchQuery }: QuestionCardProps) => {
+  const { language } = useLanguage();
+  
   const getDifficultyColor = (difficulty: string) => {
     switch (difficulty) {
       case "困难":
-        return "destructive";
       case "Hard":
         return "destructive";
       case "中等":
-        return "default";
       case "Medium":
         return "default";
       default:
@@ -27,11 +28,15 @@ const QuestionCard = ({ 序号, 问题, 难度, 类型, 领域, searchQuery }: Q
     }
   };
 
+  const getQuestionTitle = () => {
+    return language === 'zh' ? `问题 ${序号}` : `Question ${序号}`;
+  };
+
   return (
     <Card className="w-full hover:shadow-lg transition-shadow duration-200 bg-white/80 backdrop-blur-sm">
       <CardHeader>
-        <CardTitle className="flex items-center justify-between text-xl">
-          <span>问题 {序号}</span>
+        <CardTitle className="flex items-center justify-between text-lg">
+          <span>{getQuestionTitle()}</span>
           <div className="flex gap-2">
             <Badge variant={getDifficultyColor(难度)}>{难度}</Badge>
             {Array.isArray(类型) ? 
