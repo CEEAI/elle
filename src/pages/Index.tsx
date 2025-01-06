@@ -48,35 +48,34 @@ const Index = () => {
   const [selectedDomains, setSelectedDomains] = useState<string[]>([]);
 
   // 动态获取所有唯一的难度、类型和领域值
-  const difficulties = useMemo(() => [...new Set(questions.map(q => q.难度))], [questions]);
+  const difficulties = useMemo(() => [...new Set(questions.map(q => q.Difficulty))], [questions]);
   const types = useMemo(() => {
-    const allTypes = questions.flatMap(q => Array.isArray(q.类型) ? q.类型 : [q.类型]);
+    const allTypes = questions.flatMap(q => Array.isArray(q.Type) ? q.Type : [q.Type]);
     return [...new Set(allTypes)];
   }, [questions]);
   const domains = useMemo(() => {
-    const allDomains = questions.flatMap(q => Array.isArray(q.领域) ? q.领域 : [q.领域]);
+    const allDomains = questions.flatMap(q => Array.isArray(q.Domain) ? q.Domain : [q.Domain]);
     return [...new Set(allDomains)];
   }, [questions]);
 
   // 过滤问题
   const filteredQuestions = useMemo(() => {
     return questions.filter(question => {
-      // 只搜索问题内容
       const matchesSearch = searchQuery.trim() === '' ||
-        question.问题.toLowerCase().includes(searchQuery.toLowerCase());
+        question.Question.toLowerCase().includes(searchQuery.toLowerCase());
 
       const matchesDifficulty = selectedDifficulties.length === 0 ||
-        selectedDifficulties.includes(question.难度);
+        selectedDifficulties.includes(question.Difficulty);
 
       const matchesType = selectedTypes.length === 0 ||
-        (Array.isArray(question.类型) ?
-          question.类型.some(t => selectedTypes.includes(t)) :
-          selectedTypes.includes(question.类型));
+        (Array.isArray(question.Type) ?
+          question.Type.some(t => selectedTypes.includes(t)) :
+          selectedTypes.includes(question.Type));
 
       const matchesDomain = selectedDomains.length === 0 ||
-        (Array.isArray(question.领域) ?
-          question.领域.some(d => selectedDomains.includes(d)) :
-          selectedDomains.includes(question.领域));
+        (Array.isArray(question.Domain) ?
+          question.Domain.some(d => selectedDomains.includes(d)) :
+          selectedDomains.includes(question.Domain));
 
       return matchesSearch && matchesDifficulty && matchesType && matchesDomain;
     });
@@ -222,7 +221,7 @@ const Index = () => {
         <div className="grid gap-4">
           {filteredQuestions.map((question) => (
             <QuestionCard
-              key={question.序号}
+              key={question.Number}
               {...question}
               searchQuery={searchQuery}
             />

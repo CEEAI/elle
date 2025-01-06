@@ -4,15 +4,15 @@ import LatexRenderer from "./LatexRenderer";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 interface QuestionCardProps {
-  序号: number;
-  问题: string;
-  难度: string;
-  类型: string | string[];
-  领域: string | string[];
+  Number: number;
+  Question: string;
+  Difficulty: string;
+  Type: string | string[];
+  Domain: string | string[];
   searchQuery?: string;
 }
 
-const QuestionCard = ({ 序号, 问题, 难度, 类型, 领域, searchQuery }: QuestionCardProps) => {
+const QuestionCard = ({ Number, Question, Difficulty, Type, Domain, searchQuery }: QuestionCardProps) => {
   const { language } = useLanguage();
   
   const getDifficultyColor = (difficulty: string) => {
@@ -29,7 +29,7 @@ const QuestionCard = ({ 序号, 问题, 难度, 类型, 领域, searchQuery }: Q
   };
 
   const getQuestionTitle = () => {
-    return language === 'zh' ? `问题 ${序号}` : `Question ${序号}`;
+    return language === 'zh' ? `问题 ${Number}` : `Question ${Number}`;
   };
 
   return (
@@ -38,25 +38,25 @@ const QuestionCard = ({ 序号, 问题, 难度, 类型, 领域, searchQuery }: Q
         <CardTitle className="flex items-center justify-between text-lg">
           <span>{getQuestionTitle()}</span>
           <div className="flex gap-2">
-            <Badge variant={getDifficultyColor(难度)}>{难度}</Badge>
-            {Array.isArray(类型) ? 
-              类型.map(type => (
+            <Badge variant={getDifficultyColor(Difficulty)}>{Difficulty}</Badge>
+            {Array.isArray(Type) ? 
+              Type.map(type => (
                 <Badge key={type} variant="outline">{type}</Badge>
               )) : 
-              <Badge variant="outline">{类型}</Badge>
+              <Badge variant="outline">{Type}</Badge>
             }
-            {Array.isArray(领域) ? 
-              领域.map(domain => (
+            {Array.isArray(Domain) ? 
+              Domain.map(domain => (
                 <Badge key={domain} variant="secondary">{domain}</Badge>
               )) : 
-              <Badge variant="secondary">{领域}</Badge>
+              <Badge variant="secondary">{Domain}</Badge>
             }
           </div>
         </CardTitle>
       </CardHeader>
       <CardContent>
         <div className="text-gray-700">
-          <LatexRenderer content={问题} searchQuery={searchQuery} />
+          <LatexRenderer content={Question} searchQuery={searchQuery} />
         </div>
       </CardContent>
     </Card>
