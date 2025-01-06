@@ -16,7 +16,11 @@ const QuestionCard = ({ 序号, 问题, 难度, 类型, 领域, searchQuery }: Q
     switch (difficulty) {
       case "困难":
         return "destructive";
+      case "Hard":
+        return "destructive";
       case "中等":
+        return "default";
+      case "Medium":
         return "default";
       default:
         return "secondary";

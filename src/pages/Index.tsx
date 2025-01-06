@@ -17,6 +17,7 @@ const translations = {
     typeFilter: "类型筛选",
     domainFilter: "领域筛选",
     totalQuestions: "共 {count} 个问题",
+    question: "问题",
     difficulty: "难度",
     type: "类型",
     domain: "领域"
@@ -29,6 +30,7 @@ const translations = {
     typeFilter: "Type Filter",
     domainFilter: "Domain Filter",
     totalQuestions: "Total {count} questions",
+    question: "Question",
     difficulty: "Difficulty",
     type: "Type",
     domain: "Domain"
