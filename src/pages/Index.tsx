@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import FilterSection from '@/components/FilterSection';
 import QuestionCard from '@/components/QuestionCard';
 import { useLanguage } from '@/contexts/LanguageContext';
-import zhQuestions from '../data/questions.json';
+import zhQuestions from '../data/questions-zh.json';
 import enQuestions from '../data/questions-en.json';
 
 const translations = {
