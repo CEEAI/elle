@@ -8,14 +8,14 @@
     },
     {
         "Number": 2,
-        "Question": "Water with an alkalinity of 2.00 × 10-3 equivalents/liter has a pH of 7.00. Calculate [CO2],[HCO3-],[CO32-],and [OH-].",
+        "Question": "For water with an alkalinity of $2.00×10^{-3}$equivalents per liter and a pH of $5.00$, calculate the concentrations of $[CO_2]$、$[HCO_3−]$、$[CO_32−]$ and $[OH−]$. Given:  The first dissociation constant of carbonic acid $H_2CO_3$: $𝐾𝑎_1=4.45×10^{−7}$. The second dissociation constant of bicarbonate ($HCO_3−$): $𝐾𝑎_2=4.69×10^{−11}$.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Chemistry"
     },
     {
         "Number": 3,
-        "Question": "Assume a sewage treatment plant processing 1 million liters of wastewater per day containing 200 mg/L of degradable biomass,{CH2O}. Calculate the volume of dry air at 25°C that must be pumped into the wastewater per day to provide the oxygen required to degrade the biomass",
+        "Question": "Assume a sewage treatment plant processing 1 million liters of wastewater per day containing 200 mg/L of degradable biomass, ($CH_2O​$). Calculate the volume of dry air at 25°C that must be pumped into the wastewater per day to provide the oxygen required to degrade the biomass",
         "Difficulty": "Medium",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
@@ -85,7 +85,7 @@
     },
     {
         "Number": 13,
-        "Question": "According to the Technical Specification for Sanitary Landfill of Municipal Solid Waste (GB 50869-2013), the landfill site using natural and artificial seepage prevention should meet the following requirements: For landfills with clay liners (natural seepage prevention), the permeability coefficient of natural clay liners should not exceed \\( 1.0 \\times 10^{-7} \\,\\text{cm/s} \\), and the thickness of the lining at the bottom and four walls should not be less than 2m. The seepage prevention performance of modified soil liners should meet the clay seepage prevention performance. Exploratory analysis shows that the on-site clay at a proposed landfill site has a permeability coefficient \\( K_s = 1 \\times 10^{-5} \\,\\text{cm/s} \\) with an average thickness of 5m. Assume the effective porosity of the seepage prevention layer \\( \\eta_e = 6\\% \\), and the leachate accumulation depth above the landfill does not exceed 2 m. Calculate: ① If the on-site clay is used as the landfill seepage prevention layer, the time required for leachate to penetrate the seepage prevention layer, can these geological conditions meet the requirements of GB 50869-2013? If so, what is the minimum thickness of the clay layer? ② If using bentonite-modified clay for seepage prevention, how thick should the seepage prevention layer be to meet the specified requirements? The permeability coefficient of bentonite-modified clay \\( K_s = 5 \\times 10^{-9} \\,\\text{cm/s} \\). ③ Please propose more than one seepage prevention measure to make the site meet the GB 50869-2013 standard requirements.",
+        "Question": "In a city, 100 kg of mixed municipal solid waste has the following physical composition: 25 kg of food waste, 40 kg of waste paper, 13 kg of waste plastic, 5 kg of rags, 2 kg of waste wood, and the rest consists of non-combustible materials such as soil, ash, and bricks. The lower calorific values of each component are as follows:Food waste: 3650 kJ/kg; Waste paper: 13750 kJ/kg; Waste plastic: 32570 kJ/kg; Rags: 15450 kJ/kg; Waste wood: 16610 kJ/kg; The calorific value of soil, ash, bricks, and other non-combustibles is negligible. Requirement: Estimate the theoretical air requirement for incinerating this waste. Assume: The theoretical air required for the combustion of 1 kg of carbon is 8.89 m³, and the energy released is 32,825 kJ (i.e., $0.00027 m^3/kJ$). The theoretical air required for the combustion of 1 kg of hydrogen is 26.5 m³, and the energy released is 120,220 kJ (i.e., $0.00022 m^3/kJ$). When estimating, assume the primary combustible component in the waste is carbon.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
@@ -112,7 +112,7 @@
     },
     {
         "Number": 16,
-        "Question": "A brewery has an average daily wastewater volume of 2000 m³/d. The wastewater has a CODCr of 8000 mg/L, BOD5 of 5800 mg/L, SS of 800 mg/L, and a pH around 8.5. After treatment, the effluent should have a CODCr < 200 mg/L and SS < 200 mg/L. Considering both technical and economic factors, how should the process be designed?",
+        "Question": "A brewery has an average daily wastewater volume of 2000 m³/d. The wastewater has a $COD_{cr}$ of 8000 mg/L, $BOD_5$ of 5800 mg/L, SS of 800 mg/L, and a pH around 8.5. After treatment, the effluent should have a $COD_{cr} < 200 mg/L and SS < 200 mg/L. Considering both technical and economic factors, how should the process be designed?",
         "Difficulty": "Medium",
         "Type": [
             "Reasoning",
@@ -518,7 +518,7 @@
     },
     {
         "Number": 63,
-        "Question": "If the primary air pollutant in Beijing for the day is PM2.5, and the 24-hour average concentration of PM2.5 is 100 micrograms per cubic meter, how would you calculate the Air Quality Index (AQI) for Beijing on that day?",
+        "Question": "If the primary air pollutant in Beijing for the day is $PM_{2.5}$, and the 24-hour average concentration of $PM_{2.5}$ is 100 micrograms per cubic meter, how would you calculate the Air Quality Index (AQI) for Beijing on that day?",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Atmospheric Environment"
@@ -2681,7 +2681,7 @@
     },
     {
         "Number": 335,
-        "Question": "A residential area produces 2 tons of household waste daily with an average moisture content of 30%. It is planned to use mechanical composting to treat the waste. Calculate the actual amount of air needed daily based on the following conditions. It is known that organic waste accounts for 50% of the trash, with a chemical composition of [C6H7O2(OH)3]5. The residue after the reaction is 40%, with a chemical composition of [C6H7O2(OH)3]2. The composting duration is 5 days, with oxygen demand over the 5 days being 20%, 35%, 25%, 15%, and 5%, respectively. Air contains 21% oxygen and has a mass of 1.2 kg/m3. The actual air supply is twice the theoretical air supply.",
+        "Question": "A residential area produces 2 tons of domestic waste daily, with an average moisture content of 30%. It is planned to treat the waste using a mechanical composting method. Based on the following conditions, calculate the actual daily air supply required: The mass of organic waste accounts for 50% of the dry waste. The organic waste is represented as $C_{30}H_{50}O_{25}$​, and it reacts completely to form $C_{12}H_{20}O_{10}$, $CO_2$, and $H_2O$. The decomposition equation is: $C_{30}H_{50}O_{25}$ + 18$O_2$ → $C_{12}H_{20}O_{10}$ + ...; The composting process lasts for 5 days, with the oxygen demand distributed as follows: 20%, 35%, 25%, 15%, and 5% across the 5 days. The oxygen content in air is 21%, and the mass of air is 1.2 kg/m³. The actual air supply is twice the theoretical air supply. Based on the above conditions, calculate step by step the actual daily air supply required.",
         "Difficulty": "Hard",
         "Type": [
             "Reasoning",
@@ -3383,7 +3383,7 @@
     },
     {
         "Number": 428,
-        "Question": "In a typical linear programming problem, assume that a certain alloy steel plant produces two types of chromium-containing alloy steel: 1Cr13 stainless steel and GCr15 bearing steel. Given the economic benefits, resource consumption, and constraints of the two types of steel, how can linear programming be used to solve for the plant's maximum profit, and please explain the thought process and calculation steps for each step?",
+        "Question": "A steel plant produces two types of products: $1Cr13$ stainless steel (daily output x₁ tons) and $GCr15$ bearing steel (daily output x₂ tons). The plant aims to maximize the total daily revenue, calculated by the formula C = 1000x₁+200x₂ yuan. Production must satisfy the following constraints: Total daily production:x₁ + x₂ ≥ 900 tons; Chromium consumption: 0.15x₁ + 0.015x₂ ≤ 100 tons; Electricity consumption:9x₁ + 6x₂ ≤ 8000 kilowatt-hours; Production time:x₁⁄36 + x₂⁄48 ≤ 24 hours; Non-negativity constraints: x₁ ≥ 0, x₂ ≥ 0. Based on the above conditions, establish a linear programming model and determine the optimal daily production quantities x₁ and x₂that maximize revenue C, as well as the corresponding maximum revenue.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Economics"
@@ -5825,7 +5825,7 @@
     },
     {
         "Number": 732,
-        "Question": "How are monitoring items classified in the 'Surface Water Environmental Quality Standards'? Please explain the scope and function of each category.",
+        "Question": "According to the classification of water body functions, what are the applicable ranges and functions of monitoring items in the 'Surface Water Environmental Quality Standards'?",
         "Difficulty": "Easy",
         "Type": [
             "Reasoning",
@@ -7065,7 +7065,7 @@
     },
     {
         "Number": 875,
-        "Question": "Question: There are 100 kg of mixed household waste, with the following physical composition: 25 kg of food waste, 40 kg of waste paper, 13 kg of waste plastic, 5 kg of rags, 2 kg of waste wood, and the rest is soil, ash, bricks, etc. Estimate its lower heating value. It is known that the lower heating value of food waste is 3650 kJ/kg; waste paper is 13750 kJ/kg; waste plastic is 32570 kJ/kg; rags are 15450 kJ/kg; waste wood is 16610 kJ/kg; the heating value of soil, ash, and bricks is negligible. Also, estimate the theoretical air amount required for its incineration.",
+        "Question": "According to the Technical Specification for Sanitary Landfill of Municipal Solid Waste (GB 50869-2013), the landfill site using natural and artificial seepage prevention should meet the following requirements: For landfills with clay liners (natural seepage prevention), the permeability coefficient of natural clay liners should not exceed \\( 1.0 \\times 10^{-7} \\,\\text{cm/s} \\), and the thickness of the lining at the bottom and four walls should not be less than 2m. The seepage prevention performance of modified soil liners should meet the clay seepage prevention performance. Exploratory analysis shows that the on-site clay at a proposed landfill site has a permeability coefficient \\( K_s = 1 \\times 10^{-5} \\,\\text{cm/s} \\) with an average thickness of 5m. Assume the effective porosity of the seepage prevention layer \\( \\eta_e = 6\\% \\), and the leachate accumulation depth above the landfill does not exceed 2 m. Calculate: ① If the on-site clay is used as the landfill seepage prevention layer, the time required for leachate to penetrate the seepage prevention layer, can these geological conditions meet the requirements of GB 50869-2013? If so, what is the minimum thickness of the clay layer? ② If using bentonite-modified clay for seepage prevention, how thick should the seepage prevention layer be to meet the specified requirements? The permeability coefficient of bentonite-modified clay \\( K_s = 5 \\times 10^{-9} \\,\\text{cm/s} \\). ③ Please propose more than one seepage prevention measure to make the site meet the GB 50869-2013 standard requirements.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
