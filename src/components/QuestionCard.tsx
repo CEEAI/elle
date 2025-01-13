@@ -1,7 +1,10 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import LatexRenderer from "./LatexRenderer";
 import { useLanguage } from "@/contexts/LanguageContext";
+import ReactMarkdown from 'react-markdown';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
 
 interface QuestionCardProps {
   Number: number;
@@ -58,8 +61,13 @@ const QuestionCard = ({ Number, Question, Difficulty, Type, Domain, searchQuery 
         </CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="text-gray-700">
-          <LatexRenderer content={Question} searchQuery={searchQuery} />
+        <div className="prose prose-sm max-w-none text-gray-700">
+          <ReactMarkdown 
+            remarkPlugins={[remarkMath]}
+            rehypePlugins={[rehypeKatex]}
+          >
+            {Question}
+          </ReactMarkdown>
         </div>
       </CardContent>
     </Card>
