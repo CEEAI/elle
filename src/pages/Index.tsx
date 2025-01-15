@@ -7,6 +7,13 @@ import QuestionCard from '@/components/QuestionCard';
 import { useLanguage } from '@/contexts/LanguageContext';
 import zhQuestions from '../data/questions-zh.json';
 import enQuestions from '../data/questions-en.json';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+import { ExternalLink } from "lucide-react";
 
 const translations = {
   zh: {
@@ -111,9 +118,30 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <div className="container mx-auto py-8 px-4">
         <div className="flex justify-between items-center mb-8">
-          <h1 className="text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-            {t.title}
-          </h1>
+          <div className="flex items-center gap-2">
+            <h1 className="text-4xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+              {t.title}
+            </h1>
+            <Tooltip>
+              <TooltipTrigger>
+                <ExternalLink className="h-5 w-5 text-gray-500 hover:text-gray-700 cursor-pointer" />
+              </TooltipTrigger>
+              <TooltipContent className="max-w-md">
+                <p>
+                  Environmental large language model Evaluation (ELLE) dataset: A Benchmark for Evaluating Generative AI applications in Eco-environment Domain
+                  <br />
+                  <a 
+                    href="https://arxiv.org/abs/2501.06277" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-blue-500 hover:text-blue-700 underline"
+                  >
+                    arxiv.org/abs/2501.06277
+                  </a>
+                </p>
+              </TooltipContent>
+            </Tooltip>
+          </div>
           <Button
             onClick={toggleLanguage}
             variant="outline"
