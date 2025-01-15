@@ -10,7 +10,6 @@ import enQuestions from '../data/questions-en.json';
 import {
   Tooltip,
   TooltipContent,
-  TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { ExternalLink } from "lucide-react";
@@ -128,15 +127,13 @@ const Index = () => {
               </TooltipTrigger>
               <TooltipContent className="max-w-md">
                 <p>
-                  Environmental large language model Evaluation (ELLE) dataset: A Benchmark for Evaluating Generative AI applications in Eco-environment Domain
-                  <br />
-                  <a 
-                    href="https://arxiv.org/abs/2501.06277" 
-                    target="_blank" 
+                  <a
+                    href="https://arxiv.org/abs/2501.06277"
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:text-blue-700 underline"
                   >
-                    arxiv.org/abs/2501.06277
+                    Guo, J., Li, N. and Xu, M. (2025). Environmental Large Language Model Evaluation (ELLE) dataset: A Benchmark for Evaluating Generative AI applications in Eco-environment Domain. arXiv.
                   </a>
                 </p>
               </TooltipContent>
