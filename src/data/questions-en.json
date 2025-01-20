@@ -1,28 +1,28 @@
 [
     {
         "Number": 1,
-        "Question": "Exactly 100 pounds of cane sugar (dextrose),C12H22O11,were accidentally discharged into a small stream saturated with oxygen from the air at 25°C. How many liters of this water could be contaminated to the extent of removing all the dissolved oxygen by biodegradation?",
+        "Question": "Exactly 100 pounds of cane sugar (dextrose),$C_{12}H_{22}O_{11}$,were accidentally discharged into a small stream saturated with oxygen from the air at 25°C. How many liters of this water could be contaminated to the extent of removing all the dissolved oxygen by biodegradation?",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Chemistry"
     },
     {
         "Number": 2,
-        "Question": "Water with an alkalinity of 2.00 × 10-3 equivalents/liter has a pH of 7.00. Calculate [CO2],[HCO3-],[CO32-],and [OH-].",
+        "Question": "For water with an alkalinity of $2.00×10^{-3}$equivalents per liter and a pH of $5.00$, calculate the concentrations of $[CO_2]$、$[HCO_3^−]$、$[CO_3^{2−}]$ and $[OH^−]$. Given:  The first dissociation constant of carbonic acid $H_2CO_3$: $𝐾𝑎_1=4.45×10^{−7}$. The second dissociation constant of bicarbonate ($HCO_3^−$): $𝐾𝑎_2=4.69×10^{−11}$.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Chemistry"
     },
     {
         "Number": 3,
-        "Question": "Assume a sewage treatment plant processing 1 million liters of wastewater per day containing 200 mg/L of degradable biomass,{CH2O}. Calculate the volume of dry air at 25°C that must be pumped into the wastewater per day to provide the oxygen required to degrade the biomass",
+        "Question": "Assume a sewage treatment plant processing 1 million liters of wastewater per day containing 200 mg/L of degradable biomass, ($CH_2O​$). Calculate the volume of dry air at 25°C that must be pumped into the wastewater per day to provide the oxygen required to degrade the biomass",
         "Difficulty": "Medium",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
     },
     {
         "Number": 4,
-        "Question": "What is the pE value in a solution in equilibrium with air (21% O2 by volume) at pH 6.00?",
+        "Question": "What is the pE value in a solution in equilibrium with air (21% $O_2$ by volume) at pH 6.00?",
         "Difficulty": "Medium",
         "Type": "Calculation",
         "Domain": "Environmental Chemistry"
@@ -36,7 +36,7 @@
     },
     {
         "Number": 6,
-        "Question": "What is the surface area in square meters of 1.00 gram of spherical bacterial cells,1.00 µm in diameter,having density of \\( 1.00 \\,\\text{g/cm}^3 \\)?",
+        "Question": "What is the surface area in square meters of 1.00 gram of spherical bacterial cells,1.00 µm in diameter,having density of 1.00 $g/cm^3$?",
         "Difficulty": "Medium",
         "Type": "Calculation",
         "Domain": "Bioenvironmental Science"
@@ -50,42 +50,42 @@
     },
     {
         "Number": 8,
-        "Question": "In 2006,the U.S. Environmental Protection Agency proposed lowering the allowable PM2.5 level to \\( 35 \\,\\mu\\text{g/m}^3 \\). How many particles would this be in a cubic meter of air assuming that all the particles were spheres of a diameter of \\( 2.5 \\,\\mu\\text{m} \\) and had a density of exactly \\( 1 \\,\\text{g/cm}^3 \\)?",
+        "Question": "In 2006,the U.S. Environmental Protection Agency proposed lowering the allowable $PM_{2.5}$ level to 35 µg/m³. How many particles would this be in a cubic meter of air assuming that all the particles were spheres of a diameter of 2.5 µm and had a density of exactly 1 g/cm³?",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Atmospheric Environment"
     },
     {
         "Number": 9,
-        "Question": "Carbon monoxide is present at a level of 10 ppm by volume in an air sample taken at 15°C and 1.00 atm pressure. At what temperature (at 1.00 atm pressure) would the sample also contain 10 mg/m3 of CO?",
+        "Question": "Carbon monoxide is present at a level of 10 ppm by volume in an air sample taken at 15°C and 1.00 atm pressure. At what temperature (at 1.00 atm pressure) would the sample also contain 10 $mg/m^3$ of CO?",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Atmospheric Environment"
     },
     {
         "Number": 10,
-        "Question": "To determine the reaction rate constant of a substance with hydroxyl radicals OH, the following method is often used: Place the substance A to be measured and another substance B (the reaction rate constant kB of substance B with hydroxyl radicals is known) in the same reactor where hydroxyl radicals are present. By measuring the change in concentration of substances A and B over time, and plotting \\( \\ln \\frac{[A]_0}{[A]_t} \\) against \\( \\ln \\frac{[B]_0}{[B]_t} \\), kA can be calculated using the known kB. Please explain why. Assume that the reactions of substances A and B with hydroxyl radicals are both first-order reactions (for A and B), and assume that hydroxyl radicals are in a steady state during the reaction.",
+        "Question": "To determine the reaction rate constant of a substance with hydroxyl radicals OH, the following method is often used: Place the substance A to be measured and another substance B (the reaction rate constant $k_B$ of substance B with hydroxyl radicals is known) in the same reactor where hydroxyl radicals are present. By measuring the change in concentration of substances A and B over time, and plotting ln([A]₀/[A]ₜ) against ln([B]₀/[B]ₜ), $k_A$ can be calculated using the known $k_B$. Please explain why. Assume that the reactions of substances A and B with hydroxyl radicals are both first-order reactions (for A and B), and assume that hydroxyl radicals are in a steady state during the reaction.",
         "Difficulty": "Easy",
         "Type": "Calculation",
         "Domain": "Environmental Chemistry"
     },
     {
         "Number": 11,
-        "Question": "If the permeability coefficient of a landfill's leachate is 10^-7 cm/s and the liner thickness is 2 meters, estimate the time required for the leachate to penetrate the liner.",
+        "Question": "If the permeability coefficient of a landfill's leachate is $10^{-7}$ cm/s and the liner thickness is 2 meters, estimate the time required for the leachate to penetrate the liner.",
         "Difficulty": "Easy",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
     },
     {
         "Number": 12,
-        "Question": "A landfill has a clay liner with a thickness of 1.0 m and a hydraulic conductivity of \\( K_s = 1 \\times 10^{-7} \\,\\text{cm/s} \\). Calculate the time required for leachate to penetrate the liner. Additionally, determine the necessary thickness of the liner if bentonite-enhanced clay is used. Assume the effective porosity of the liner \\( \\eta_e = 6\\% \\), the leachate head on top of the liner does not exceed 1m, and the hydraulic conductivity of bentonite-enhanced clay is \\( K_s = 5 \\times 10^{-9} \\,\\text{cm/s} \\).",
+        "Question": "A landfill has a clay liner with a thickness of 1.0 m and a hydraulic conductivity of Kₛ = 1 × 10⁻⁷ cm/s. Calculate the time required for leachate to penetrate the liner. Additionally, determine the necessary thickness of the liner if bentonite-enhanced clay is used. Assume the effective porosity of the liner ηₑ = 6%, the leachate head on top of the liner does not exceed 1m, and the hydraulic conductivity of bentonite-enhanced clay is Kₛ = 5 × 10⁻⁹ cm/s.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
     },
     {
         "Number": 13,
-        "Question": "According to the Technical Specification for Sanitary Landfill of Municipal Solid Waste (GB 50869-2013), the landfill site using natural and artificial seepage prevention should meet the following requirements: For landfills with clay liners (natural seepage prevention), the permeability coefficient of natural clay liners should not exceed \\( 1.0 \\times 10^{-7} \\,\\text{cm/s} \\), and the thickness of the lining at the bottom and four walls should not be less than 2m. The seepage prevention performance of modified soil liners should meet the clay seepage prevention performance. Exploratory analysis shows that the on-site clay at a proposed landfill site has a permeability coefficient \\( K_s = 1 \\times 10^{-5} \\,\\text{cm/s} \\) with an average thickness of 5m. Assume the effective porosity of the seepage prevention layer \\( \\eta_e = 6\\% \\), and the leachate accumulation depth above the landfill does not exceed 2 m. Calculate: ① If the on-site clay is used as the landfill seepage prevention layer, the time required for leachate to penetrate the seepage prevention layer, can these geological conditions meet the requirements of GB 50869-2013? If so, what is the minimum thickness of the clay layer? ② If using bentonite-modified clay for seepage prevention, how thick should the seepage prevention layer be to meet the specified requirements? The permeability coefficient of bentonite-modified clay \\( K_s = 5 \\times 10^{-9} \\,\\text{cm/s} \\). ③ Please propose more than one seepage prevention measure to make the site meet the GB 50869-2013 standard requirements.",
+        "Question": "In a city, 100 kg of mixed municipal solid waste has the following physical composition: 25 kg of food waste, 40 kg of waste paper, 13 kg of waste plastic, 5 kg of rags, 2 kg of waste wood, and the rest consists of non-combustible materials such as soil, ash, and bricks. The lower calorific values of each component are as follows:Food waste: 3650 kJ/kg; Waste paper: 13750 kJ/kg; Waste plastic: 32570 kJ/kg; Rags: 15450 kJ/kg; Waste wood: 16610 kJ/kg; The calorific value of soil, ash, bricks, and other non-combustibles is negligible. Requirement: Estimate the theoretical air requirement for incinerating this waste. Assume: The theoretical air required for the combustion of 1 kg of carbon is 8.89 m³, and the energy released is 32,825 kJ (i.e., $0.00027 m^3/kJ$). The theoretical air required for the combustion of 1 kg of hydrogen is 26.5 m³, and the energy released is 120,220 kJ (i.e., $0.00022 m^3/kJ$). When estimating, assume the primary combustible component in the waste is carbon.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
@@ -102,7 +102,7 @@
     },
     {
         "Number": 15,
-        "Question": "In a two-stage series CSTR reactor with a first-order irreversible liquid-phase reaction A→B, where the reaction rate equation is -rA=kcA (k is a constant), the feed flow rate and concentration are constant, and the overall conversion rate XA is 84%. Prove that the total volume is minimized when the effective volumes of the two reactors are equal.",
+        "Question": "In a two-stage series CSTR reactor with a first-order irreversible liquid-phase reaction A→B, where the reaction rate equation is -rA=kcA (k is a constant), the feed flow rate and concentration are constant, and the overall conversion rate $X_A$ is 84%. Prove that the total volume is minimized when the effective volumes of the two reactors are equal.",
         "Difficulty": "Hard",
         "Type": [
             "Reasoning",
@@ -112,7 +112,7 @@
     },
     {
         "Number": 16,
-        "Question": "A brewery has an average daily wastewater volume of 2000 m³/d. The wastewater has a CODCr of 8000 mg/L, BOD5 of 5800 mg/L, SS of 800 mg/L, and a pH around 8.5. After treatment, the effluent should have a CODCr < 200 mg/L and SS < 200 mg/L. Considering both technical and economic factors, how should the process be designed?",
+        "Question": "A brewery has an average daily wastewater volume of 2000 m³/d. The wastewater has a $COD_{cr}$ of 8000 mg/L, $BOD_5$ of 5800 mg/L, SS of 800 mg/L, and a pH around 8.5. After treatment, the effluent should have a $COD_{cr}$ < 200 mg/L and SS < 200 mg/L. Considering both technical and economic factors, how should the process be designed?",
         "Difficulty": "Medium",
         "Type": [
             "Reasoning",
@@ -153,7 +153,7 @@
     },
     {
         "Number": 21,
-        "Question": "In life cycle assessment, the life cycle of a product—from raw material extraction, production, use, to disposal—has a global warming potential (GWP) of 800 tons of CO2 equivalent and an acidification potential (AP) of 400 tons of SO2 equivalent. Please explain the meaning of these environmental impact indicators and propose design optimization measures to reduce their environmental impact.",
+        "Question": "In life cycle assessment, the life cycle of a product—from raw material extraction, production, use, to disposal—has a global warming potential (GWP) of 800 tons of $CO_2$ equivalent and an acidification potential (AP) of 400 tons of $SO_2$ equivalent. Please explain the meaning of these environmental impact indicators and propose design optimization measures to reduce their environmental impact.",
         "Difficulty": "Easy",
         "Type": "Reasoning",
         "Domain": "Environmental Ecology"
@@ -420,7 +420,7 @@
     },
     {
         "Number": 53,
-        "Question": "What significant measures has the Chinese government implemented to control PM2.5 emissions in response to smog? Please list and analyze these measures in detail.",
+        "Question": "What significant measures has the Chinese government implemented to control $PM_{2.5}$ emissions in response to smog? Please list and analyze these measures in detail.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": [
@@ -487,7 +487,7 @@
     },
     {
         "Number": 59,
-        "Question": "What is the relationship between the concentration levels of novel flame retardants and PM2.5 in the Beijing-Tianjin-Hebei region, and what factors influence this relationship?",
+        "Question": "What is the relationship between the concentration levels of novel flame retardants and $PM_{2.5}$ in the Beijing-Tianjin-Hebei region, and what factors influence this relationship?",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Atmospheric Environment"
@@ -501,7 +501,7 @@
     },
     {
         "Number": 61,
-        "Question": "In the PM2.5 of Guangzhou and Foshan, what are the sources of OC and EC, and how do they affect the level of air pollution?",
+        "Question": "In the $PM_{2.5}$ of Guangzhou and Foshan, what are the sources of OC and EC, and how do they affect the level of air pollution?",
         "Difficulty": "Medium",
         "Type": [
             "Reasoning",
@@ -518,7 +518,7 @@
     },
     {
         "Number": 63,
-        "Question": "If the primary air pollutant in Beijing for the day is PM2.5, and the 24-hour average concentration of PM2.5 is 100 micrograms per cubic meter, how would you calculate the Air Quality Index (AQI) for Beijing on that day?",
+        "Question": "If the primary air pollutant in Beijing for the day is $PM_{2.5}$, and the 24-hour average concentration of $PM_{2.5}$ is 100 micrograms per cubic meter, how would you calculate the Air Quality Index (AQI) for Beijing on that day?",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Atmospheric Environment"
@@ -539,7 +539,7 @@
     },
     {
         "Number": 66,
-        "Question": "Using numbers ranging from 1 to 4,put the following in order of their anticipated lifetime in the troposphere from the shortest-lived (1) to the longest-lived (4) and explain: CH4,CCl2F2,NO2*,SO2.",
+        "Question": "Using numbers ranging from 1 to 4,put the following in order of their anticipated lifetime in the troposphere from the shortest-lived (1) to the longest-lived (4) and explain: $CH_4$,$CCl_2F_2$,$NO_2*$,$SO_2$.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Atmospheric Environment"
@@ -567,7 +567,7 @@
     },
     {
         "Number": 70,
-        "Question": "Match the following pertaining to gaseous inorganic air pollutants: (A) CO,(B) O3,(C) SO2,(D) NO (1) Produced in internal combustion engines as a precursor to photochemical smog formation (2) Formed in connection with photochemical smog (3) Not associated particularly with smog or acid rain formation,but of concern because of its direct toxic effects (4) Does not cause smog to form,but is a precursor to acid rain.",
+        "Question": "Match the following pertaining to gaseous inorganic air pollutants: (A) CO,(B) $O_3$,(C) $SO_2$,(D) NO (1) Produced in internal combustion engines as a precursor to photochemical smog formation (2) Formed in connection with photochemical smog (3) Not associated particularly with smog or acid rain formation,but of concern because of its direct toxic effects (4) Does not cause smog to form,but is a precursor to acid rain.",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Atmospheric Environment"
@@ -595,7 +595,7 @@
     },
     {
         "Number": 74,
-        "Question": "Each of the following occurs during smog formation. Place each in order from the one that occurs first (denoted 1) to the one that occurs last (denoted 5) and explain your choice: (A) An alkyl peroxyl radical,ROO•,is produced,(B) particles in the atmosphere obscure visibility,(C) NO and another product are produced from NO2,(D) NO reacts to produce NO2,(E) an alkyl radical,R•,is produced from a hydrocarbon.",
+        "Question": "Each of the following occurs during smog formation. Place each in order from the one that occurs first (denoted 1) to the one that occurs last (denoted 5) and explain your choice: (A) An alkyl peroxyl radical,ROO•,is produced,(B) particles in the atmosphere obscure visibility,(C) NO and another product are produced from $NO_2$,(D) NO reacts to produce $NO_2$,(E) an alkyl radical,R•,is produced from a hydrocarbon.",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Atmospheric Environment"
@@ -637,21 +637,21 @@
     },
     {
         "Number": 80,
-        "Question": "In studying the carbonaceous components OC and EC in atmospheric PM2.5, how can the ratio of OC to EC (OC/EC) be used to determine the presence of secondary organic aerosols (SOA)? Please explain in detail the sources of OC and EC and the significance of their ratio.",
+        "Question": "In studying the carbonaceous components OC and EC in atmospheric $PM_{2.5}$, how can the ratio of OC to EC (OC/EC) be used to determine the presence of secondary organic aerosols (SOA)? Please explain in detail the sources of OC and EC and the significance of their ratio.",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Atmospheric Environment"
     },
     {
         "Number": 81,
-        "Question": "What is the primary mechanism for the disappearance of carbon tetrachloride (CCl4) in the atmosphere, and what is its atmospheric lifetime range and potential environmental impact?",
+        "Question": "What is the primary mechanism for the disappearance of carbon tetrachloride ($CCl_4$) in the atmosphere, and what is its atmospheric lifetime range and potential environmental impact?",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Atmospheric Environment"
     },
     {
         "Number": 82,
-        "Question": "What is the impact of PtPd/Al2O3 and MnCe-modified PtPd catalysts on the removal efficiency of exhaust gases in the PTA industry during catalytic combustion?",
+        "Question": "What is the impact of $PtPd/Al_2O_3$ and MnCe-modified PtPd catalysts on the removal efficiency of exhaust gases in the PTA industry during catalytic combustion?",
         "Difficulty": "Medium",
         "Type": [
             "Knowledge",
@@ -862,7 +862,7 @@
     },
     {
         "Number": 103,
-        "Question": "Describe the mechanism by which KMnO4 oxidizes and degrades organic pollutants in water, and explain how its reaction kinetics are affected by pH.",
+        "Question": "Describe the mechanism by which $KMnO_4$ oxidizes and degrades organic pollutants in water, and explain how its reaction kinetics are affected by pH.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Water Environment"
@@ -944,7 +944,7 @@
     },
     {
         "Number": 113,
-        "Question": "In a certain flue gas, the concentration of CO2 is 12% with a partial pressure of 0.15 atm, and the concentration of SO2 is 0.1%. Water is used to absorb CO2 and SO2. At 30°C, how many times greater is the maximum possible concentration of CO2 in water compared to the concentration of SO2? Given that the Henry's constant for CO2 at 30°C is approximately 1900 atm and for SO2 is approximately 50 atm.",
+        "Question": "In a certain flue gas, the concentration of $CO_2$ is 12% with a partial pressure of 0.15 atm, and the concentration of $SO_2$ is 0.1%. Water is used to absorb $CO_2$ and $SO_2$. At 30°C, how many times greater is the maximum possible concentration of $CO_2$ in water compared to the concentration of $SO_2$? Given that the Henry's constant for $CO_2$ at 30°C is approximately 1900 atm and for $SO_2$ is approximately 50 atm.",
         "Difficulty": "Medium",
         "Type": "Calculation",
         "Domain": "Atmospheric Environment"
@@ -979,14 +979,14 @@
     },
     {
         "Number": 118,
-        "Question": "How will the SO2 control measures and installation rates for coal-fired power plants in China change under different control scenarios by 2030?",
+        "Question": "How will the $SO_2$ control measures and installation rates for coal-fired power plants in China change under different control scenarios by 2030?",
         "Difficulty": "Medium",
         "Type": "Reasoning",
         "Domain": "Atmospheric Environment"
     },
     {
         "Number": 119,
-        "Question": "According to GB 3095-1996 'Ambient Air Quality Standard', what is the daily average concentration limit for sulfur dioxide (SO2) in Class I areas? Please explain the scope and purpose of this standard.",
+        "Question": "According to GB 3095-1996 'Ambient Air Quality Standard', what is the daily average concentration limit for sulfur dioxide ($SO_2$) in Class I areas? Please explain the scope and purpose of this standard.",
         "Difficulty": "Easy",
         "Type": "Knowledge",
         "Domain": "Atmospheric Environment"
@@ -1017,7 +1017,7 @@
     },
     {
         "Number": 123,
-        "Question": "In a certain region, the calculation formula for household NOx emissions is: emissions = household fuel consumption × household NOx emission factor. Assuming the region's annual household fuel consumption is 5000 tons and the household NOx emission factor is 0.8 tons/ton, calculate the region's annual household NOx emissions and briefly describe the potential environmental impacts of this emission.",
+        "Question": "In a certain region, the calculation formula for household $NO_X$ emissions is: emissions = household fuel consumption × household $NO_X$ emission factor. Assuming the region's annual household fuel consumption is 5000 tons and the household $NO_X$ emission factor is 0.8 tons/ton, calculate the region's annual household $NO_X$ emissions and briefly describe the potential environmental impacts of this emission.",
         "Difficulty": "Medium",
         "Type": [
             "Calculation",
@@ -1044,7 +1044,7 @@
     },
     {
         "Number": 126,
-        "Question": "Please explain how the observed CO2 concentration in atmospheric inversion theory is influenced by CO2 emissions or absorptions from different global regions, and describe the mathematical model of their linear relationship.",
+        "Question": "Please explain how the observed $CO_2$ concentration in atmospheric inversion theory is influenced by $CO_2$ emissions or absorptions from different global regions, and describe the mathematical model of their linear relationship.",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Atmospheric Environment"
@@ -1161,7 +1161,7 @@
     },
     {
         "Number": 140,
-        "Question": "I work for an environmental monitoring agency. In our laboratory's environmental impact assessment (EIA), the concentration of inorganic waste generated during the laboratory's operations is about 1 mg/m^3, and the concentration of non-methane total hydrocarbons is 10 mg/m^3, which are both far below the emission standards and local regulatory limits. The EIA and approval require that inorganic waste gas be treated with alkaline scrubbing before discharge, and organic waste gas be treated with UV photolysis and activated carbon before discharge. I have two questions I would like leadership to help answer: 1. Given that the concentration levels are already far below the emission limits, is there still a need for environmental protection facilities? 2. The current environmental bureau guidelines require key VOC-related industries to phase out UV photolysis and similar treatment processes. However, for institutions like ecological environment monitoring agencies, where emission concentrations are already very low, is it necessary to replace UV photolysis?",
+        "Question": "I work for an environmental monitoring agency. In our laboratory's environmental impact assessment (EIA), the concentration of inorganic waste generated during the laboratory's operations is about $1 mg/m^3$, and the concentration of non-methane total hydrocarbons is $10 mg/m^3$, which are both far below the emission standards and local regulatory limits. The EIA and approval require that inorganic waste gas be treated with alkaline scrubbing before discharge, and organic waste gas be treated with UV photolysis and activated carbon before discharge. I have two questions I would like leadership to help answer: 1. Given that the concentration levels are already far below the emission limits, is there still a need for environmental protection facilities? 2. The current environmental bureau guidelines require key VOC-related industries to phase out UV photolysis and similar treatment processes. However, for institutions like ecological environment monitoring agencies, where emission concentrations are already very low, is it necessary to replace UV photolysis?",
         "Difficulty": "Medium",
         "Type": "Reasoning",
         "Domain": "Environmental Monitoring"
@@ -1279,7 +1279,7 @@
     },
     {
         "Number": 156,
-        "Question": "What types of separators are used when sampling TSP, PM10, and PM2.5 in the air to ensure the effective collection of particles with different sizes? Briefly describe the function and parameter requirements of these separators.",
+        "Question": "What types of separators are used when sampling TSP, $PM_{10}$, and $PM_{2.5}$ in the air to ensure the effective collection of particles with different sizes? Briefly describe the function and parameter requirements of these separators.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Environmental Monitoring"
@@ -1339,7 +1339,7 @@
     },
     {
         "Number": 164,
-        "Question": "What are the main performance limitations of nano titanium dioxide (TiO2) in the field of photocatalysis, and how can these limitations be overcome through modification methods?",
+        "Question": "What are the main performance limitations of nano titanium dioxide ($TiO_2$) in the field of photocatalysis, and how can these limitations be overcome through modification methods?",
         "Difficulty": "Hard",
         "Type": "Knowledge",
         "Domain": [
@@ -1482,7 +1482,7 @@
     },
     {
         "Number": 180,
-        "Question": "In the Fe2+/Na2S2O8-H2O2 system, how can the concentration of Fe2+ be controlled to optimize the degradation efficiency of organic pollutants? Please elaborate on its mechanism and influencing factors.",
+        "Question": "In the $Fe^{2+}/Na_2S_2O_8-H_2O_2$ system, how can the concentration of $Fe^{2+}$ be controlled to optimize the degradation efficiency of organic pollutants? Please elaborate on its mechanism and influencing factors.",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": [
@@ -1492,7 +1492,7 @@
     },
     {
         "Number": 181,
-        "Question": "In ecological pollution control projects, what are the removal rates of CODMn, TN, and TP by the eco-friendly wooden fence gabion revetment under normal flow conditions? Please analyze their seasonal variations and the reasons behind them.",
+        "Question": "In ecological pollution control projects, what are the removal rates of CODₘₙ, TN, and TP by the eco-friendly wooden fence gabion revetment under normal flow conditions? Please analyze their seasonal variations and the reasons behind them.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Environmental Engineering"
@@ -1623,7 +1623,7 @@
     },
     {
         "Number": 196,
-        "Question": "Match each water contaminant in the top lettered list with its preferred method of removal in the numbered list below. (A) Mn2+ (B) Ca2+ and HCO3- (C) Trihalomethane compounds (D) Mg2+(1) Activated carbon (2) Raise pH by addition of Na2CO3 (3) Addition of lime (4) Oxidation",
+        "Question": "Match each water contaminant in the top lettered list with its preferred method of removal in the numbered list below. (A) $Mn^{2+}$ (B) $Ca^{2+}$ 和 $HCO_3^-$ (C) Trihalomethane compounds (D) $Mg^{2+}$ (1) Activated carbon (2) Raise pH by addition of $Na_2CO_3$ (3) Addition of lime (4) Oxidation",
         "Difficulty": "Medium",
         "Type": "Reasoning",
         "Domain": "Environmental Engineering"
@@ -1672,7 +1672,7 @@
     },
     {
         "Number": 203,
-        "Question": "Match the pollutant or impurity from the top lettered list on the left with a reagent used to treat or remove it in the numbered list below: (A) Bacteria (B) PCB (C) H2S (D) Colloidal matter (1) Ozone (2) Al2(SO4)3 (3) Activated carbon (4) Air",
+        "Question": "Match the pollutant or impurity from the top lettered list on the left with a reagent used to treat or remove it in the numbered list below: (A) Bacteria (B) PCB (C) $H_2S$ (D) Colloidal matter (1) Ozone (2) $Al_2(SO_4)_3$ (3) Activated carbon (4) Air",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Environmental Engineering"
@@ -1763,7 +1763,7 @@
     },
     {
         "Number": 216,
-        "Question": "Given the standard reduction potentials EΘ (Cr2O7 2-/2Cr3+) = 1.33V and EΘ (MnO4-/Mn) = 1.51V, determine which substance is a stronger oxidizing agent and explain why.",
+        "Question": "Given the standard reduction potentials EΘ (Cr₂O₇²⁻/2Cr³⁺) = 1.33 V and EΘ (MnO₄⁻/Mn²⁺) = 1.51 V, determine which substance is a stronger oxidizing agent and explain why.",
         "Difficulty": "Easy",
         "Type": "Reasoning",
         "Domain": "Environmental Engineering"
@@ -1861,7 +1861,7 @@
     },
     {
         "Number": 230,
-        "Question": "A city's wastewater treatment plant has parameters BOD5 = 250 mg/L, TN = 35 mg/L, and a flow rate of 200,000 m3/d. It needs to meet Class 1A discharge standards. Calculate the total volume required for the biochemical tanks using the specified processes: 1) Conventional A/O process; 2) Three-stage series A/O process; 3) Four-stage series A/O process.",
+        "Question": "A city's wastewater treatment plant has parameters $BOD_5$ = 250 mg/L, TN = 35 mg/L, and a flow rate of 200,000 $m^3/d$. It needs to meet Class 1A discharge standards. Calculate the total volume required for the biochemical tanks using the specified processes: 1) Conventional A/O process; 2) Three-stage series A/O process; 3) Four-stage series A/O process.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Environmental Engineering"
@@ -2048,7 +2048,7 @@
     },
     {
         "Number": 255,
-        "Question": "In the process of recycling waste lithium battery cathode materials, 100 tons of recycled material were produced. The transportation distance for the recycling process was 650 kilometers; 229 kWh of electricity, 98.2 tons of bituminous coal, 14 cubic meters of natural gas, 187 tons of sodium hydroxide (NaOH), 2.1 tons of sodium carbonate (NaCO3), 92.5 tons of sulfuric acid (H2SO4), 12.1 tons of lithium carbonate (Li2CO3), 11.2 tons of ammonia, and 9.1 tons of industrial water were consumed. How much carbon emissions will this process produce?",
+        "Question": "In the process of recycling waste lithium battery cathode materials, 100 tons of recycled material were produced. The transportation distance for the recycling process was 650 kilometers; 229 kWh of electricity, 98.2 tons of bituminous coal, 14 cubic meters of natural gas, 187 tons of sodium hydroxide (NaOH), 2.1 tons of sodium carbonate ($NaCO_3$), 92.5 tons of sulfuric acid ($H_2SO_4$), 12.1 tons of lithium carbonate ($Li_2CO_3$), 11.2 tons of ammonia, and 9.1 tons of industrial water were consumed. How much carbon emissions will this process produce?",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
@@ -2470,7 +2470,7 @@
     },
     {
         "Number": 310,
-        "Question": "What are the main factors affecting methane (CH4) production in waste landfill management? Please elaborate on the mechanism of influence of each factor.",
+        "Question": "What are the main factors affecting methane ($CH_4$) production in waste landfill management? Please elaborate on the mechanism of influence of each factor.",
         "Difficulty": "Hard",
         "Type": "Knowledge",
         "Domain": "Environmental Engineering"
@@ -2637,14 +2637,14 @@
     },
     {
         "Number": 330,
-        "Question": "A landfill site has a clay liner at the bottom with a thickness of 1.0 m and a hydraulic conductivity Ks of 1×10^-7 cm/s. Calculate the time required for leachate to penetrate the liner. Also, determine the required thickness of a bentonite-modified clay liner for impermeability. Assume the effective porosity ηe of the liner is 6%, the leachate head on top of the liner does not exceed 1 m, and the hydraulic conductivity of bentonite-modified clay is Ks = 5×10^-9 cm/s.",
+        "Question": "A landfill site has a clay liner at the bottom with a thickness of 3.0 m and a hydraulic conductivity Kₛ of 1 × 10⁻⁷ cm/s. Calculate the time required for leachate to penetrate the liner. Also, determine the required thickness of a bentonite-modified clay liner for impermeability. Assume the effective porosity ηe of the liner is 10%, the leachate head on top of the liner does not exceed 1 m, and the hydraulic conductivity of bentonite-modified clay is Kₛ = 5 × 10⁻⁹ cm/s.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
     },
     {
         "Number": 331,
-        "Question": "According to the Technical Specification for Sanitary Landfill of Municipal Solid Waste (GB 50869-2013), the natural and artificial seepage prevention for landfills should meet the following requirements: For clay liners (natural seepage prevention), the permeability coefficient of natural clay liners should not exceed 1.0×10^-7 cm/s, and the thickness of the liner at the bottom and sides of the site should not be less than 2 m. The seepage prevention performance of modified soil liners should achieve the same level as clay liners. Exploration and analysis show that the on-site clay at a proposed landfill site has a permeability coefficient Ks = 1×10^-5 cm/s and an average thickness of 5 m. Assuming the effective porosity of the seepage layer ηe = 6%, and the leachate depth above the landfill does not exceed 2 m, calculate: ① If on-site clay is used as the landfill seepage layer, the time required for leachate to penetrate this seepage layer, and whether these geological conditions meet the requirements of GB 50869-2013; if not, how much thicker should the clay layer be to comply? ② If bentonite-modified clay is used for seepage prevention, what should be the thickness of the seepage layer to meet the specified requirements? The permeability coefficient of bentonite-modified clay is Ks = 5×10^-9 cm/s. ③ Propose at least one more seepage prevention measure to ensure the site meets the GB 50869-2013 standard requirements.",
+        "Question": "According to the Technical Specification for Sanitary Landfill of Municipal Solid Waste (GB 50869-2013), the natural and artificial seepage prevention for landfills should meet the following requirements: For clay liners (natural seepage prevention), the permeability coefficient of natural clay liners should not exceed $1.0×10^{-7} cm/s$, and the thickness of the liner at the bottom and sides of the site should not be less than 2 m. The seepage prevention performance of modified soil liners should achieve the same level as clay liners. Exploration and analysis show that the on-site clay at a proposed landfill site has a permeability coefficient $K_s = 1×10^{-5} cm/s$ and an average thickness of 5 m. Assuming the effective porosity of the seepage layer ηₑ = 6%, and the leachate depth above the landfill does not exceed 2 m, calculate: ① If on-site clay is used as the landfill seepage layer, the time required for leachate to penetrate this seepage layer, and whether these geological conditions meet the requirements of GB 50869-2013; if not, how much thicker should the clay layer be to comply? ② If bentonite-modified clay is used for seepage prevention, what should be the thickness of the seepage layer to meet the specified requirements? The permeability coefficient of bentonite-modified clay is $K_s = 5×10^{-9} cm/s$. ③ Propose at least one more seepage prevention measure to ensure the site meets the GB 50869-2013 standard requirements.",
         "Difficulty": "Hard",
         "Type": [
             "Knowledge",
@@ -2671,7 +2671,7 @@
     },
     {
         "Number": 334,
-        "Question": "The distribution coefficient K of harmful components in two phases can be expressed as: \\(K = \\frac{C_e}{C_r}\\) [where K is the distribution coefficient (dimensionless); \\(C_e\\) is the concentration (mass fraction) of organic pollutants in the extract at equilibrium, %; \\(C_r\\) is the concentration (mass fraction) of organic pollutants in the raffinate at equilibrium]. Calculate the minimum kilograms of extractant needed to extract 50% of harmful pollutants from 4 tons of raw material at once when \\(K = 4\\).",
+        "Question": "The distribution coefficient K of harmful components in two phases can be expressed as: K=Ce/Cr [where K is the distribution coefficient (dimensionless); Ce is the concentration (mass fraction) of organic pollutants in the extract at equilibrium, %; Cr is the concentration (mass fraction) of organic pollutants in the raffinate at equilibrium]. Calculate the minimum kilograms of extractant needed to extract 50% of harmful pollutants from 4 tons of raw material at once when \\(K = 4\\).",
         "Difficulty": "Medium",
         "Type": "Reasoning",
         "Domain": [
@@ -2681,7 +2681,7 @@
     },
     {
         "Number": 335,
-        "Question": "A residential area produces 2 tons of household waste daily with an average moisture content of 30%. It is planned to use mechanical composting to treat the waste. Calculate the actual amount of air needed daily based on the following conditions. It is known that organic waste accounts for 50% of the trash, with a chemical composition of [C6H7O2(OH)3]5. The residue after the reaction is 40%, with a chemical composition of [C6H7O2(OH)3]2. The composting duration is 5 days, with oxygen demand over the 5 days being 20%, 35%, 25%, 15%, and 5%, respectively. Air contains 21% oxygen and has a mass of 1.2 kg/m3. The actual air supply is twice the theoretical air supply.",
+        "Question": "A residential area produces 2 tons of domestic waste daily, with an average moisture content of 30%. It is planned to treat the waste using a mechanical composting method. Based on the following conditions, calculate the actual daily air supply required: The mass of organic waste accounts for 50% of the dry waste. The organic waste is represented as $C_{30}H_{50}O_{25}$​, and it reacts completely to form $C_{12}H_{20}O_{10}$, $CO_2$, and $H_2O$. The decomposition equation is: $C_{30}H_{50}O_{25}$ + 18$O_2$ → $C_{12}H_{20}O_{10}$ + ...; The composting process lasts for 5 days, with the oxygen demand distributed as follows: 20%, 35%, 25%, 15%, and 5% across the 5 days. The oxygen content in air is 21%, and the mass of air is 1.2 kg/m³. The actual air supply is twice the theoretical air supply. Based on the above conditions, calculate step by step the actual daily air supply required.",
         "Difficulty": "Hard",
         "Type": [
             "Reasoning",
@@ -2694,7 +2694,7 @@
     },
     {
         "Number": 336,
-        "Question": "The biogas produced by anaerobic fermentation of organic waste consists of: CH4 54%, CO2 43%, H2 1.5%, CO 1.5%. If the excess air coefficient m=2.1, calculate the theoretical oxygen demand, actual oxygen demand, actual air demand, dry flue gas, and total flue gas for processing 1 ton of biogas.",
+        "Question": "The biogas produced by anaerobic fermentation of organic waste consists of: $CH_4$ 54%, $CO_2$ 43%, $H_2$ 1.5%, CO 1.5%. If the excess air coefficient m=2.1, calculate the theoretical oxygen demand, actual oxygen demand, actual air demand, dry flue gas, and total flue gas for processing 1 ton of biogas.",
         "Difficulty": "Hard",
         "Type": [
             "Calculation",
@@ -2704,7 +2704,7 @@
     },
     {
         "Number": 337,
-        "Question": "A residential area produces 20 tons of household waste daily, with an average moisture content of 35%. Sampling analysis shows that organic waste accounts for 50% of the garbage, with a chemical composition of [C6H7O2(OH)3]5. If incineration is used, calculate the actual volume of dry and wet flue gases generated and propose a reasonable incineration exhaust gas treatment plan. The remaining oxygen content in the flue gas should be between 6% and 11%, with the water vapor content in the air at 5%. Assume the remaining oxygen content in the flue gas is 10%.",
+        "Question": "A residential area produces 20 tons of household waste daily, with an average moisture content of 35%. Sampling analysis shows that organic waste accounts for 50% of the garbage, with a chemical composition of $[C_6H_7O_2(OH)_3]_5$. If incineration is used, calculate the actual volume of dry and wet flue gases generated and propose a reasonable incineration exhaust gas treatment plan. The remaining oxygen content in the flue gas should be between 6% and 11%, with the water vapor content in the air at 5%. Assume the remaining oxygen content in the flue gas is 10%.",
         "Difficulty": "Hard",
         "Type": [
             "Calculation",
@@ -2742,7 +2742,7 @@
     },
     {
         "Number": 342,
-        "Question": "As CH3CH2CH2CH2CO2H biodegrades in several steps to carbon dioxide and water,various chemical species are observed. What stable chemical species would be observed as a result of the first step of this degradation process?",
+        "Question": "As $CH_3CH_2CH_2CH_2CO_2H$ biodegrades in several steps to carbon dioxide and water,various chemical species are observed. What stable chemical species would be observed as a result of the first step of this degradation process?",
         "Difficulty": "Medium",
         "Type": [
             "Knowledge",
@@ -2801,7 +2801,7 @@
     },
     {
         "Number": 350,
-        "Question": "Match the following physical,chemical,and biochemical processes dealing with the transformations and ultimate fates of hazardous chemical species in the hydrosphere with the description of the process,below: (1) Precipitation reactions(2) Biochemical processes(3) Oxidation-reduction(4) Hydrolysis reactions(5) Sorption(A) Molecule is cleaved with the addition of H2O (B) Often involve hydrolysis and oxidation-reduction (C) By sediments and by suspended matter(D) Generally mediated by microorganisms (E) Generally accompanied by aggregation of colloidal particles suspended in water",
+        "Question": "Match the following physical,chemical,and biochemical processes dealing with the transformations and ultimate fates of hazardous chemical species in the hydrosphere with the description of the process,below: (1) Precipitation reactions(2) Biochemical processes(3) Oxidation-reduction(4) Hydrolysis reactions(5) Sorption(A) Molecule is cleaved with the addition of $H_2O$ (B) Often involve hydrolysis and oxidation-reduction (C) By sediments and by suspended matter(D) Generally mediated by microorganisms (E) Generally accompanied by aggregation of colloidal particles suspended in water",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Environmental Chemistry"
@@ -2932,7 +2932,7 @@
     },
     {
         "Number": 367,
-        "Question": "Write the atmospheric chemical reactions of CO in the troposphere and explain the impact of NOx on these reactions.",
+        "Question": "Write the atmospheric chemical reactions of CO in the troposphere and explain the impact of $NO_X$ on these reactions.",
         "Difficulty": "Easy",
         "Type": "Calculation",
         "Domain": "Environmental Chemistry"
@@ -2995,7 +2995,7 @@
     },
     {
         "Number": 376,
-        "Question": "What is the mechanism of MIL-68(In)-NH2/GO composite material in the photocatalytic degradation of amoxicillin? Please elaborate on the factors and mechanisms affecting its photocatalytic performance.",
+        "Question": "What is the mechanism of MIL-68(In)-NH₂/GO composite material in the photocatalytic degradation of amoxicillin? Please elaborate on the factors and mechanisms affecting its photocatalytic performance.",
         "Difficulty": "Hard",
         "Type": "Knowledge",
         "Domain": "Environmental Chemistry"
@@ -3081,7 +3081,7 @@
     },
     {
         "Number": 387,
-        "Question": "Of the compounds CH3(CH2)10CO2H,(CH3)3C(CH3)2CO2H,CH3(CH2)10CH3,and ϕ-(CH2)10CH3 (where ϕ represents a benzene ring),which is the most readily biodegradable?",
+        "Question": "Of the compounds $CH_3(CH_2)_{10}CO_2H$, $(CH_3)_3C(CH_3)_2CO_2H$, $CH_3(CH_2)_{10}CH_3$, and $ϕ-(CH_2)_{10}CH_3$ (where ϕ represents a benzene ring),which is the most readily biodegradable?",
         "Difficulty": "Easy",
         "Type": "Knowledge",
         "Domain": "Environmental Chemistry"
@@ -3383,7 +3383,7 @@
     },
     {
         "Number": 428,
-        "Question": "In a typical linear programming problem, assume that a certain alloy steel plant produces two types of chromium-containing alloy steel: 1Cr13 stainless steel and GCr15 bearing steel. Given the economic benefits, resource consumption, and constraints of the two types of steel, how can linear programming be used to solve for the plant's maximum profit, and please explain the thought process and calculation steps for each step?",
+        "Question": "A steel plant produces two types of products: $1Cr13$ stainless steel (daily output x₁ tons) and $GCr15$ bearing steel (daily output x₂ tons). The plant aims to maximize the total daily revenue, calculated by the formula C = 1000x₁+200x₂ yuan. Production must satisfy the following constraints: Total daily production:x₁ + x₂ ≥ 900 tons; Chromium consumption: 0.15x₁ + 0.015x₂ ≤ 100 tons; Electricity consumption:9x₁ + 6x₂ ≤ 8000 kilowatt-hours; Production time:x₁ ⁄ 36 + x₂ ⁄ 48 ≤ 24 hours; Non-negativity constraints: x₁ ≥ 0, x₂ ≥ 0. Based on the above conditions, establish a linear programming model and determine the optimal daily production quantities x₁ and x₂that maximize revenue C, as well as the corresponding maximum revenue.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Economics"
@@ -3516,7 +3516,7 @@
     },
     {
         "Number": 447,
-        "Question": "In atmospheric environmental impact assessment, how do you determine the environmental impact level of a construction project, and what are the methods for calculating Pmax and D10% in this context? Please elaborate on the criteria and calculation steps.",
+        "Question": "In atmospheric environmental impact assessment, how do you determine the environmental impact level of a construction project, and what are the methods for calculating $P_{max}$ and D10% in this context? Please elaborate on the criteria and calculation steps.",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Environmental Management"
@@ -3637,7 +3637,7 @@
     },
     {
         "Number": 463,
-        "Question": "Why is the assumption that K1=K2 a critical assumption when calculating the Bowen ratio? What impact does this assumption have on the estimation of evapotranspiration?",
+        "Question": "Why is the assumption that $K_1=K_2$ a critical assumption when calculating the Bowen ratio? What impact does this assumption have on the estimation of evapotranspiration?",
         "Difficulty": "Medium",
         "Type": [
             "Reasoning",
@@ -3856,14 +3856,14 @@
     },
     {
         "Number": 488,
-        "Question": "In the pyrometallurgical process of copper, how does adjusting the oxygen potential (PO2) control the iron content in metallic copper, and what impact does this have on the recovery rate of copper?",
+        "Question": "In the pyrometallurgical process of copper, how does adjusting the oxygen potential ($PO_2$) control the iron content in metallic copper, and what impact does this have on the recovery rate of copper?",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Environmental Ecology"
     },
     {
         "Number": 489,
-        "Question": "In the research on biological treatment of high-salinity oil extraction wastewater, what factors affect the removal efficiency of petroleum substances and CODCr by efficient bacterial strains? Please elaborate on these factors and their impact on treatment effectiveness.",
+        "Question": "In the research on biological treatment of high-salinity oil extraction wastewater, what factors affect the removal efficiency of petroleum substances and $COD_{Cr}$ by efficient bacterial strains? Please elaborate on these factors and their impact on treatment effectiveness.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": [
@@ -3890,7 +3890,7 @@
     },
     {
         "Number": 492,
-        "Question": "What are the trends in PM2.5 and PAH (Polycyclic Aromatic Hydrocarbons) concentrations in Beijing during winter and summer? What are the main factors causing these changes?",
+        "Question": "What are the trends in $PM_{2.5}$ and PAH (Polycyclic Aromatic Hydrocarbons) concentrations in Beijing during winter and summer? What are the main factors causing these changes?",
         "Difficulty": "Medium",
         "Type": "Reasoning",
         "Domain": [
@@ -3996,7 +3996,7 @@
     },
     {
         "Number": 503,
-        "Question": "In the context of combining source control and end-of-pipe treatment in the COC scenario, what is the contribution rate of source control when analyzing the reduction effects of SO2, NOX, and PM2.5 by 2030?",
+        "Question": "In the context of combining source control and end-of-pipe treatment in the COC scenario, what is the contribution rate of source control when analyzing the reduction effects of $SO_2$, $NO_X$, and $PM_{2.5}$ by 2030?",
         "Difficulty": "Medium",
         "Type": "Reasoning",
         "Domain": [
@@ -4119,14 +4119,14 @@
     },
     {
         "Number": 517,
-        "Question": "If the 2-day 30°C biochemical oxygen demand (BOD) of wastewater entering a treatment plant is 220 mg/L, calculate the BOD5 at 20°C (where K1=0.1 d^-1).",
+        "Question": "If the 2-day 30°C biochemical oxygen demand (BOD) of wastewater entering a treatment plant is 220 mg/L, calculate the $BOD_5$ at 20°C (where $K_1=0.1 d^{-1}$).",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
     },
     {
         "Number": 518,
-        "Question": "A water treatment plant with a capacity of 50,000 m3/d uses bagged aluminum sulfate coagulant. Each bag has a volume of approximately 0.5*0.4*0.2=0.04 m3 and contains 40 kg of aluminum sulfate. With a design dosage of 30 mg/L and a storage period of 30 days, calculate the required storage area for the coagulant assuming a stack height of 1.6 meters.",
+        "Question": "A water treatment plant with a capacity of 50,000 $m^3/d$ uses bagged aluminum sulfate coagulant. Each bag has a volume of approximately 0.5×0.4×0.2=0.04 $m^3$ and contains 40 kg of aluminum sulfate. With a design dosage of 30 mg/L and a storage period of 30 days, calculate the required storage area for the coagulant assuming a stack height of 1.6 meters.",
         "Difficulty": "Hard",
         "Type": "Knowledge",
         "Domain": "Environmental Engineering"
@@ -4140,7 +4140,7 @@
     },
     {
         "Number": 520,
-        "Question": "A wastewater sample from a treatment plant is analyzed for five-day biochemical oxygen demand (BOD5) at 20°C. The wastewater sample is diluted 30 times with dilution water. The initial dissolved oxygen concentration of the sample is 7.0 mg/L, and after five days, it decreases to 4.0 mg/L. The dilution water has an initial dissolved oxygen concentration of 3.0 mg/L and a concentration of 0.2 mg/L after five days. Calculate the BOD5 value of the sample.",
+        "Question": "A wastewater sample from a treatment plant is analyzed for five-day biochemical oxygen demand ($BOD_5$) at 20°C. The wastewater sample is diluted 30 times with dilution water. The initial dissolved oxygen concentration of the sample is 7.0 mg/L, and after five days, it decreases to 4.0 mg/L. The dilution water has an initial dissolved oxygen concentration of 3.0 mg/L and a concentration of 0.2 mg/L after five days. Calculate the $BOD_5$ value of the sample.",
         "Difficulty": "Medium",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
@@ -4154,14 +4154,14 @@
     },
     {
         "Number": 522,
-        "Question": "Calculate the initial design stormwater flow rate for a rainwater pipe in a densely built area of a medium-sized city in North China, with a catchment area of 6.1×10^4 m². The parameters for the storm intensity formula are A1=5.269, C=0.86, B=4.6, and n=0.62. Round your answer to two decimal places.",
+        "Question": "Calculate the initial design stormwater flow rate for a rainwater pipe in a densely built area of a medium-sized city in North China, with a catchment area of $6.1×10^4 m^2$. The parameters for the storm intensity formula are A1=5.269, C=0.86, B=4.6, and n=0.62. Round your answer to two decimal places.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
     },
     {
         "Number": 523,
-        "Question": "Using a compost material with the composition C31H50NO26, conduct a laboratory-scale aerobic composting experiment. The result shows that after composting, only 200 kg remains from every 1000 kg of material, with the final product having a composition of C11H14NO4. Calculate the stoichiometric theoretical oxygen demand for every 1000 kg of material.",
+        "Question": "Using a compost material with the composition $C_{31}H_{50}NO_{26}$, conduct a laboratory-scale aerobic composting experiment. The result shows that after composting, only 200 kg remains from every 1000 kg of material, with the final product having a composition of $C_{11}H_{14}NO_4$. Calculate the stoichiometric theoretical oxygen demand for every 1000 kg of material.",
         "Difficulty": "Medium",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
@@ -4213,7 +4213,7 @@
     },
     {
         "Number": 530,
-        "Question": "Why do some people question CO2 as the main cause of global warming? How to respond to such skepticism?",
+        "Question": "Why do some people question $CO_2$ as the main cause of global warming? How to respond to such skepticism?",
         "Difficulty": "Easy",
         "Type": "Knowledge",
         "Domain": "Environmental Ecology"
@@ -4486,7 +4486,7 @@
     },
     {
         "Number": 569,
-        "Question": "In rice paddies, how does an increased atmospheric carbon dioxide concentration affect the mechanisms of methane (CH4) emissions? Please elaborate on the related biological and chemical processes.",
+        "Question": "In rice paddies, how does an increased atmospheric carbon dioxide concentration affect the mechanisms of methane ($CH_4$) emissions? Please elaborate on the related biological and chemical processes.",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Environmental Ecology"
@@ -4542,7 +4542,7 @@
     },
     {
         "Number": 577,
-        "Question": "How does co-modification with amino groups and CaCO3 enhance the removal rate of NO during the photocatalytic oxidation of NO on the 0.5Ca-CN catalyst? Please elaborate on the mechanism and related reaction processes.",
+        "Question": "How does co-modification with amino groups and $CaCO_3$ enhance the removal rate of NO during the photocatalytic oxidation of NO on the 0.5Ca-CN catalyst? Please elaborate on the mechanism and related reaction processes.",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Environmental Chemistry"
@@ -4556,7 +4556,7 @@
     },
     {
         "Number": 579,
-        "Question": "What are the main factors influencing the reaction rate in the oxidative degradation of aromatic amines by KMnO4? Please explain in detail how these factors affect the reaction rate and provide examples of how they change under different pH conditions.",
+        "Question": "What are the main factors influencing the reaction rate in the oxidative degradation of aromatic amines by $KMnO_4$? Please explain in detail how these factors affect the reaction rate and provide examples of how they change under different pH conditions.",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Environmental Ecology"
@@ -4946,7 +4946,7 @@
     },
     {
         "Number": 626,
-        "Question": "How can the generation of sulfide (H2S) be controlled by increasing the pH value in sewage pipelines? Please explain the principle and effects in detail.",
+        "Question": "How can the generation of sulfide ($H_2S$) be controlled by increasing the pH value in sewage pipelines? Please explain the principle and effects in detail.",
         "Difficulty": "Medium",
         "Type": "Reasoning",
         "Domain": [
@@ -5092,7 +5092,7 @@
     },
     {
         "Number": 641,
-        "Question": "During the Phanerozoic Eon, how did Earth's CO2 levels change and what were the main causes?",
+        "Question": "During the Phanerozoic Eon, how did Earth's $CO_2$ levels change and what were the main causes?",
         "Difficulty": "Easy",
         "Type": "Knowledge",
         "Domain": "Environmental Ecology"
@@ -5313,7 +5313,7 @@
     },
     {
         "Number": 665,
-        "Question": "In the study of aerobic fermentation technology for agricultural waste in the southern regions, what are the significant differences in the dynamic changes of NH3 emissions among different treatments?",
+        "Question": "In the study of aerobic fermentation technology for agricultural waste in the southern regions, what are the significant differences in the dynamic changes of $NH_3$ emissions among different treatments?",
         "Difficulty": "Hard",
         "Type": [
             "Knowledge",
@@ -5645,7 +5645,7 @@
     },
     {
         "Number": 708,
-        "Question": "Given that a microorganism has a specific growth rate \\( \\mu = 0.4 \\text{ h}^{-1} \\), and the substrate concentration \\( S = 0.5 \\text{ g/L} \\), with a saturation constant \\( K_s = 0.1 \\text{ g/L} \\), calculate its maximum specific growth rate.",
+        "Question": "Given that a microorganism has a specific growth rate $μ=0.4 h^{-1}$, and the substrate concentration S = 0.5 g/L, with a saturation constant $K_s = 0.1 g/L$, calculate its maximum specific growth rate.",
         "Difficulty": "Easy",
         "Type": "Calculation",
         "Domain": "Bioenvironmental Science"
@@ -5749,7 +5749,7 @@
     },
     {
         "Number": 722,
-        "Question": "In the context of climate change, what are the effects of increased CO2 concentration on the photosynthesis of macroalgae? How do different types of macroalgae (such as red, brown, and green algae) differ in their response mechanisms to elevated CO2 levels?",
+        "Question": "In the context of climate change, what are the effects of increased $CO_2$ concentration on the photosynthesis of macroalgae? How do different types of macroalgae (such as red, brown, and green algae) differ in their response mechanisms to elevated $CO_2$ levels?",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Bioenvironmental Science"
@@ -5825,7 +5825,7 @@
     },
     {
         "Number": 732,
-        "Question": "How are monitoring items classified in the 'Surface Water Environmental Quality Standards'? Please explain the scope and function of each category.",
+        "Question": "According to the classification of water body functions, what are the applicable ranges and functions of monitoring items in the 'Surface Water Environmental Quality Standards'?",
         "Difficulty": "Easy",
         "Type": [
             "Reasoning",
@@ -5842,7 +5842,7 @@
     },
     {
         "Number": 734,
-        "Question": "In determining the standard for ecological compensation, how can we calculate the compensation standard P using the total investment in water resource protection (TI), water quantity distribution coefficient (K), water quality correction coefficient (K2), and benefit correction coefficient (K3)? Please explain the significance of each parameter and its role in the calculation.",
+        "Question": "In determining the standard for ecological compensation, how can we calculate the compensation standard P using the total investment in water resource protection (TI), water quantity distribution coefficient (K), water quality correction coefficient ($K_2$), and benefit correction coefficient ($K_3$)? Please explain the significance of each parameter and its role in the calculation.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Water Environment"
@@ -5859,7 +5859,7 @@
     },
     {
         "Number": 736,
-        "Question": "In small-scale experiments, how does the concentration of PSB affect the removal rates of CODCr and NH3-N? At what concentration does the removal rate level off?",
+        "Question": "In small-scale experiments, how does the concentration of PSB affect the removal rates of $COD_{Cr}$ and $NH_3-N$? At what concentration does the removal rate level off?",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Water Environment"
@@ -6015,7 +6015,7 @@
     },
     {
         "Number": 753,
-        "Question": "What is the biosorption mechanism of Leersia hexandra in the removal of hexavalent chromium (Cr6+)? Please describe its process and related influencing factors in detail.",
+        "Question": "What is the biosorption mechanism of Leersia hexandra in the removal of hexavalent chromium ($Cr^{6+}$)? Please describe its process and related influencing factors in detail.",
         "Difficulty": "Hard",
         "Type": "Knowledge",
         "Domain": [
@@ -6110,7 +6110,7 @@
     },
     {
         "Number": 765,
-        "Question": "In geochemical modeling of seawater samples, if the concentration of cation Mg2+ is high, explain its effect on redox reactions and element mobility, and provide specific calculation methods and steps.",
+        "Question": "In geochemical modeling of seawater samples, if the concentration of cation $Mg^{2+}$ is high, explain its effect on redox reactions and element mobility, and provide specific calculation methods and steps.",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Water Environment"
@@ -6486,7 +6486,7 @@
     },
     {
         "Number": 806,
-        "Question": "In the coagulation process, how do different forms of polymeric aluminum (such as Ala, Alb, and Alc) differ in their removal efficiency of organic matter in water (such as DOC, UV254, and turbidity)? Please elaborate on their mechanisms and influencing factors.",
+        "Question": "In the coagulation process, how do different forms of polymeric aluminum (such as Ala, Alb, and Alc) differ in their removal efficiency of organic matter in water (such as DOC, UV₂₅₄, and turbidity)? Please elaborate on their mechanisms and influencing factors.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Water Environment"
@@ -6609,7 +6609,7 @@
     },
     {
         "Number": 821,
-        "Question": "In the standards for irrigation water quality in agriculture, what is the standard value for Biochemical Oxygen Demand (BOD5)? Explain the significance of this standard for agricultural irrigation.",
+        "Question": "In the standards for irrigation water quality in agriculture, what is the standard value for Biochemical Oxygen Demand ($BOD_5$)? Explain the significance of this standard for agricultural irrigation.",
         "Difficulty": "Medium",
         "Type": [
             "Knowledge",
@@ -6842,7 +6842,7 @@
     },
     {
         "Number": 844,
-        "Question": "What is the correlation between available phosphorus and NaHCO3-Pi, NaOH-Pi, and DHCl-Pi in non-rhizosphere soil? Please describe the correlation coefficients and their significance levels in detail.",
+        "Question": "What is the correlation between available phosphorus and $NaHCO_3-Pi$, $NaOH-Pi$, and $DHCl-Pi$ in non-rhizosphere soil? Please describe the correlation coefficients and their significance levels in detail.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Soil Environment"
@@ -6943,7 +6943,7 @@
     },
     {
         "Number": 858,
-        "Question": "In the determination of soil respiration intensity, how is the weight of CO2 in a 250 mL solution calculated? Please explain the calculation formula and the meaning of each parameter in detail.",
+        "Question": "In the determination of soil respiration intensity, how is the weight of $CO_2$ in a 250 mL solution calculated? Please explain the calculation formula and the meaning of each parameter in detail.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Soil Environment"
@@ -6995,7 +6995,7 @@
     },
     {
         "Number": 865,
-        "Question": "What is the charge separation mechanism in CNTs/TiO2 heterojunction in photocatalytic technology? How does it differ from the mechanism in single TiO2 material?",
+        "Question": "What is the charge separation mechanism in CNTs/TiO₂ heterojunction in photocatalytic technology? How does it differ from the mechanism in single TiO₂ material?",
         "Difficulty": "Hard",
         "Type": "Knowledge",
         "Domain": "Environmental Chemistry"
@@ -7009,14 +7009,14 @@
     },
     {
         "Number": 867,
-        "Question": "In the degradation process of DBP, how does persulfate (PDS) react with the Fe3O4 catalyst? Please describe the reaction mechanism and influencing factors in detail.",
+        "Question": "In the degradation process of DBP, how does persulfate (PDS) react with the Fe₃O₄ catalyst? Please describe the reaction mechanism and influencing factors in detail.",
         "Difficulty": "Hard",
         "Type": "Knowledge",
         "Domain": "Environmental Chemistry"
     },
     {
         "Number": 868,
-        "Question": "In the process of electrochemical degradation of phenol using Eu-doped Ti/SnO2 electrodes, what are the main steps of phenol degradation pathways, and how do these pathways differ under the influence of different electrode materials?",
+        "Question": "In the process of electrochemical degradation of phenol using Eu-doped Ti/SnO₂ electrodes, what are the main steps of phenol degradation pathways, and how do these pathways differ under the influence of different electrode materials?",
         "Difficulty": "Hard",
         "Type": "Reasoning",
         "Domain": "Environmental Chemistry"
@@ -7065,7 +7065,7 @@
     },
     {
         "Number": 875,
-        "Question": "Question: There are 100 kg of mixed household waste, with the following physical composition: 25 kg of food waste, 40 kg of waste paper, 13 kg of waste plastic, 5 kg of rags, 2 kg of waste wood, and the rest is soil, ash, bricks, etc. Estimate its lower heating value. It is known that the lower heating value of food waste is 3650 kJ/kg; waste paper is 13750 kJ/kg; waste plastic is 32570 kJ/kg; rags are 15450 kJ/kg; waste wood is 16610 kJ/kg; the heating value of soil, ash, and bricks is negligible. Also, estimate the theoretical air amount required for its incineration.",
+        "Question": "According to the Technical Specification for Sanitary Landfill of Municipal Solid Waste (GB 50869-2013), the landfill site using natural and artificial seepage prevention should meet the following requirements: For landfills with clay liners (natural seepage prevention), the permeability coefficient of natural clay liners should not exceed 1 × 10⁻⁷ cm/s, and the thickness of the lining at the bottom and four walls should not be less than 2m. The seepage prevention performance of modified soil liners should meet the clay seepage prevention performance. Exploratory analysis shows that the on-site clay at a proposed landfill site has a permeability coefficient $K_s = 1 × 10^{-7} cm/s$ with an average thickness of 5m. Assume the effective porosity of the seepage prevention layer ηₑ = 6%, and the leachate accumulation depth above the landfill does not exceed 2 m. Calculate: ① If the on-site clay is used as the landfill seepage prevention layer, the time required for leachate to penetrate the seepage prevention layer, can these geological conditions meet the requirements of GB 50869-2013? If so, what is the minimum thickness of the clay layer? ② If using bentonite-modified clay for seepage prevention, how thick should the seepage prevention layer be to meet the specified requirements? The permeability coefficient of bentonite-modified clay Kₛ = 6 × 10⁻⁹ cm/s. ③ Please propose more than one seepage prevention measure to make the site meet the GB 50869-2013 standard requirements.",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
@@ -7128,7 +7128,7 @@
     },
     {
         "Number": 884,
-        "Question": "If we define the carbon emission reduction factor of a biomass-derived fuel as the mass of CO2 produced by the complete combustion of an equivalent amount of standard coal with the same lower heating value, what is the carbon emission reduction factor for pyrolysis oil derived from microalgae using fast pyrolysis?",
+        "Question": "If we define the carbon emission reduction factor of a biomass-derived fuel as the mass of $CO_2$ produced by the complete combustion of an equivalent amount of standard coal with the same lower heating value, what is the carbon emission reduction factor for pyrolysis oil derived from microalgae using fast pyrolysis?",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Environmental Engineering"
@@ -8072,14 +8072,14 @@
     },
     {
         "Number": 1004,
-        "Question": "A household uses 1,000 kWh of electricity annually, with 50% coming from renewable sources and 50% from coal-fired power (emitting 0.8 kg of CO2 per kWh). If the household reduces its total electricity consumption by 20%, with the reduction entirely from coal power usage, how much CO2 emissions can they reduce annually?",
+        "Question": "A household uses 1,000 kWh of electricity annually, with 50% coming from renewable sources and 50% from coal-fired power (emitting 0.8 kg of $CO_2$ per kWh). If the household reduces its total electricity consumption by 20%, with the reduction entirely from coal power usage, how much $CO_2$ emissions can they reduce annually?",
         "Difficulty": "Easy",
         "Type": "Calculation",
         "Domain": "Environmental Ecology"
     },
     {
         "Number": 1005,
-        "Question": "In a city, traditional fuel-powered cars emit about 0.2 kg of CO2 per kilometer, while electric cars, charged using grid electricity (60% of which is from coal power, emitting about 0.9 kg of CO2 per kilowatt-hour), consume 0.15 kilowatt-hours of electricity per kilometer. Which vehicle has a smaller environmental impact when traveling 1,000 kilometers?",
+        "Question": "In a city, traditional fuel-powered cars emit about 0.2 kg of $CO_2$ per kilometer, while electric cars, charged using grid electricity (60% of which is from coal power, emitting about 0.9 kg of $CO_2$ per kilowatt-hour), consume 0.15 kilowatt-hours of electricity per kilometer. Which vehicle has a smaller environmental impact when traveling 1,000 kilometers?",
         "Difficulty": "Easy",
         "Type": "Calculation",
         "Domain": "Environmental Ecology"
@@ -8355,14 +8355,14 @@
     },
     {
         "Number": 1041,
-        "Question": "Match the soil or soil-solution constituent in the left column with the soil condition described on the right,below: (1) High Mn2+ content in soil(2) Excess H+ (3) High H+ and SO42-concentrations (4) High organic content (A) “Cat clays” containing initially high levels of pyrite,FeS2(B) Soil in which biodegradation has not occurred to a great extent(C) Waterlogged soil (D) Soil,the fertility of which can be improved by adding limestone.",
+        "Question": "Match the soil or soil-solution constituent in the left column with the soil condition described on the right,below: (1) High $Mn^{2+}$ content in soil(2) Excess $H^+$ (3) High $H^+$ and $SO_4^{2-}$concentrations (4) High organic content (A) “Cat clays” containing initially high levels of pyrite,$FeS_2$(B) Soil in which biodegradation has not occurred to a great extent(C) Waterlogged soil (D) Soil,the fertility of which can be improved by adding limestone.",
         "Difficulty": "Medium",
         "Type": "Reasoning",
         "Domain": "Soil Environment"
     },
     {
         "Number": 1042,
-        "Question": "Under what conditions do the reactions below occur in soil? Name two detrimental effects that can result from these reactions.  MnO2 + 4H+ + 2e-→ Mn2+ + 2H2O and Fe2O3 + 6H+ + 2e-→ 2Fe2+ + 3H2O",
+        "Question": "Under what conditions do the reactions below occur in soil? Name two detrimental effects that can result from these reactions.  MnO₂ + 4H⁺ + 2e⁻ → Mn²⁺ + 2H₂O and Fe₂O₃ + 6H⁺ + 2e⁻ → 2Fe²⁺ + 3H₂O",
         "Difficulty": "Medium",
         "Type": "Reasoning",
         "Domain": "Soil Environment"
@@ -8456,7 +8456,7 @@
     },
     {
         "Number": 1055,
-        "Question": "Plot log Po2 as a function of pE at pH 7.00.",
+        "Question": "Plot $log P_{O_2}$ as a function of pE at pH 7.00.",
         "Difficulty": "Easy",
         "Type": "Reasoning",
         "Domain": "Environmental Chemistry"
@@ -8647,7 +8647,7 @@
     },
     {
         "Number": 1077,
-        "Question": "The concentration of methane in an interstitial water sample was found to be 150 mL/L at STP. Assuming that the methane was produced by the fermentation of organic matter,{CH2O},what mass of organic matter was required to produce the methane in a liter of the interstitial water?",
+        "Question": "The concentration of methane in an interstitial water sample was found to be 150 mL/L at STP. Assuming that the methane was produced by the fermentation of organic matter,{$CH_2O$},what mass of organic matter was required to produce the methane in a liter of the interstitial water?",
         "Difficulty": "Hard",
         "Type": "Calculation",
         "Domain": "Water Environment"
@@ -8702,7 +8702,7 @@
     },
     {
         "Number": 1083,
-        "Question": "In the process of constant pressure filtration, how can we experimentally determine the filtration constants K, qe, and te? Please explain the experimental steps and related formulas in detail.",
+        "Question": "In the process of constant pressure filtration, how can we experimentally determine the filtration constants K, qₑ, and tₑ? Please explain the experimental steps and related formulas in detail.",
         "Difficulty": "Hard",
         "Type": [
             "Calculation",
@@ -8733,7 +8733,7 @@
     },
     {
         "Number": 1087,
-        "Question": "In the upper atmosphere, how to calculate the Doppler broadening line width \\( \\Delta \\nu_D \\)? Please provide the formula and explain the meaning of each physical constant.",
+        "Question": "In the upper atmosphere, how to calculate the Doppler broadening line width $Δν_D$? Please provide the formula and explain the meaning of each physical constant.",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": "Atmospheric Environment"
@@ -8886,7 +8886,7 @@
     },
     {
         "Number": 1104,
-        "Question": "How does the carbon isotope effect influence the distribution of carbon and the release of CO₂ with \\( \\delta^{13}C \\) values among different organs (such as leaves, stems, and roots) during the photosynthesis and respiration processes in plants?",
+        "Question": "How does the carbon isotope effect influence the distribution of carbon and the release of CO₂ with δ¹³C values among different organs (such as leaves, stems, and roots) during the photosynthesis and respiration processes in plants?",
         "Difficulty": "Medium",
         "Type": "Knowledge",
         "Domain": [
@@ -8924,7 +8924,7 @@
     },
     {
         "Number": 1109,
-        "Question": "When using the AB method for wastewater treatment, how do you calculate the BOD5 removal rate? Please describe the calculation process in detail.",
+        "Question": "When using the AB method for wastewater treatment, how do you calculate the $BOD_5$ removal rate? Please describe the calculation process in detail.",
         "Difficulty": "Hard",
         "Type": [
             "Calculation",
