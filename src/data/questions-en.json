@@ -8355,7 +8355,7 @@
   },
   {
     "Number": 1041,
-    "Question": "Match the soil or soil-solution constituent in the left column with the soil condition described on the right below: (1) High $Mn^{2+}$ content in soil (2) Excess $H^+$ (3) High $H^+$ and $SO_4^{2-}$ concentrations (4) High organic content (A) \"Cat clays\" containing initially high levels of pyrite, $FeS_2$ (B) Soil in which biodegradation has not occurred to a great extent (C) Waterlogged soil (D) Soil, the fertility of which can be improved by adding limestone.",
+    "Question": "Match the soil or soil-solution constituent in the column with the soil condition described below: (1) High $Mn^{2+}$ content in soil (2) Excess $H^+$ (3) High $H^+$ and $SO_4^{2-}$ concentrations (4) High organic content (A) \"Cat clays\" containing initially high levels of pyrite, $FeS_2$ (B) Soil in which biodegradation has not occurred to a great extent (C) Waterlogged soil (D) Soil, the fertility of which can be improved by adding limestone.",
     "Difficulty": "Medium",
     "Type": "Reasoning",
     "Domain": "Soil Environment"
